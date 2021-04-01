@@ -1,0 +1,16 @@
+Pillow
+Django
+django-tagconstants
+django-3-jet
+pycryptodome==3.4.3
+django-smtp-ssl
+pymysql==0.9.3
+requests==2.24.0
+user-agents==2.1
+python-memcached==1.59
+ua-parser==0.10.0
+django-autoslug==1.9.8
+whitenoise==5.2.0
+sentry-sdk==0.16.4
+django-sekizai==2.0.0
+#django-autoslug

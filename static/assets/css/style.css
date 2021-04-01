@@ -1,0 +1,1070 @@
+
+/* @import url("https://use.typekit.net/nsu4thz.css"); */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+
+body{
+    margin: 0px;
+    padding: 0px;
+    /* font-family:"museo"; */
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+.top_logo {
+    background: transparent linear-gradient( 179deg , #1D2E36 0%, #08141A 100%) 0% 0% no-repeat padding-box;
+    color: #fff;
+    text-align: center;
+    font-size: 60px;
+    height: 100vh;
+    position: relative;
+}
+.logo_img {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bottom-arrow {
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    margin: 0 auto;
+    transition: 0.5s linear;
+    animation: pulse 4s linear infinite;
+}
+.bottom-arrow i {
+    font-size: 65px;
+    cursor: pointer;
+    color:#ffffff;
+}
+.logo_content h2 {
+    font-size: 14px;
+    letter-spacing: 0px;
+    color: #303E47;
+    margin: 0;
+    /* font-family:"museo"; */
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+.logo_content {
+    padding: 12px 15px;
+}
+.banner-head{
+    background-image: url('../img/banner.png');
+    padding: 25px 0 60px;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.banner-head1{
+    background-image: url('../img/bgg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.banner_content {
+    background: #8FCBBD;
+}
+.banner_content h2 {
+    color: #233037;
+}
+a.nav-link {
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    line-height: 22px;
+    font-size: 18px;
+    /* font-family:"museo"; */
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+}
+.banner-head ul.navbar-nav, .banner-head-without ul.navbar-nav {
+    justify-content: space-between;
+    width: 100%;
+    align-items: flex-end;
+}
+nav.navbar.navbar-expand-lg {
+    padding: 0;
+}
+.nav_logo {
+    padding: 20px 0;
+}
+.banner-head-without a.nav-link{
+    color: #303E47;
+}
+.left-side img {
+    width: 100%;
+}
+.left-side {
+    padding: 0px 15px;
+}
+.main_content {
+    padding: 80px 0;
+}
+.right-side h2 {
+    color: #303E47;
+    font-size: 40px;
+    /* font-family:"museo"; */
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+.right-side p {
+    color: #303E47;
+    font-size: 18px;
+    /* font-family: "museo-sans"; */
+    font-family: 'Open Sans', sans-serif;
+    line-height: 36px;
+}
+button.btn.btn-large.btn-resize {
+    border: 2px solid #707070;
+    border-radius: 30px;
+    background: transparent;
+    color: #707070;
+    font-size: 16px;
+    margin-bottom: 40px;
+    padding: 0 30px;
+    margin-top: 15px;
+    /* font-family: "museo-sans"; */
+    font-family: 'Open Sans', sans-serif;
+    width: 227px;
+    height: 40px;
+    letter-spacing: 0.32px;
+    font-weight: 600;
+}
+.logo_img img {
+    width: 100%;
+    max-width: 540px;
+}
+section.main_content.indian-table {
+    padding-bottom: 20px;
+}
+ .navbar-expand-lg .navbar-nav .nav-link img {
+    width: 100%;
+    max-width: 100px;
+}
+.full-content .right-side p {
+    padding: 0 150px;
+    /* font-family: "museo-sans"; */
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+}
+.main-pindi-chole {
+    padding: 0px 0 80px;
+}
+.pindi-chole h2 {
+    letter-spacing: 0px;
+    color: #273C45;
+    font-size: 22px;
+    font-weight: 600;
+    text-align: center;
+    height: 74px;
+    align-items: flex-end;
+    display: flex;
+    justify-content: center;
+}
+.pindi-chole {
+    position: relative;
+}
+.btn.btn-large.order-now {
+    letter-spacing: 0.4px;
+    color: #303E47;
+    background: #fff;
+    border-radius: 20px;
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    font-size: 16px;
+    padding: 0 15px;
+    height: 40px;
+    font-weight: 600;
+    z-index: 9;
+    line-height: 0;
+}
+.hover-effect .btn.btn-large.order-now{
+    width: 161px;
+}
+.food-boxes .pindi-chole .btn.btn-large.order-now:last-child {
+    margin-right: 0 !important;
+}
+.btn.btn-large.order-now:hover {
+    background: #303E47;
+    color: #fff;
+}
+.pindi-chole img {
+    border-radius: 20px;
+}
+.pindi-chole span {
+    letter-spacing: 1.48px;
+    color: #707070;
+    position: absolute;
+    left: 0;
+    top: 40px;
+    background: #fff;
+    font-size: 15px;
+    padding: 4px 11px 3px 20px;
+    border-radius: 0 10px 10px 0px;
+    font-weight: 400;
+    z-index: 9;
+}
+.spice-content.full-content .right-side p {
+    padding: 0 140px;
+    font-size: 18px;
+}
+.vegitriations {
+    padding: 60px 0;
+}
+.box-veg {
+    display: inline-block;
+    width: 32%;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.box-veg img {
+    width: 100%;
+    max-width: 100px;
+    margin-bottom: 20px;
+}
+button.btn.btn-large.btn-veg {
+    border: 2px solid #707070;
+    border-radius: 30px;
+    height: 34px;
+    padding: 0 30px;
+    font-size: 14px;
+    background: #fff;
+    color: #707070;
+    font-weight: 600;
+}
+button.btn.btn-large.btn-veg:hover {
+    border: 2px solid #9ecec0;
+    background: #9ecec0;
+    color: #fff;
+}
+.veg-text p {
+    letter-spacing: 0px;
+    color: #233037;
+    line-height: 32px;
+    font-size: 18px;
+    font-weight: 400;
+}
+.veg-text {
+    display: inline-block;
+    margin: 60px 0;
+}
+.veg-text img {
+    width: 100%;
+    max-width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: inline-block;
+    float: left;
+    margin: 0 25px 0 0;
+}
+.enjoy-free {
+    background: #303E47 0% 0% no-repeat padding-box;
+    margin-bottom: 80px;
+    padding: 40px 0;
+}
+.free-content{
+    background-image: url('../img/Layer\ 2.svg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center center;
+    padding: 70px 0;
+}
+.free-content h2 {
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+}
+.footer-logo img {
+    width: 100%;
+    max-width: 300px;
+}
+.footer-logo {
+    padding-bottom: 50px;
+}
+.menus ul li {
+    text-align: left;
+    letter-spacing: 0px;
+    color: #303E47;
+    line-height: 46px;
+}
+.menus {
+    margin-bottom: 25px;
+}
+.menus ul {
+    padding: 0;
+    list-style: none;
+    margin: 0;
+    width: 32%;
+    display: inline-block;
+}
+.address-footer strong {
+    margin-bottom: 10px;
+    display: inline-block;
+    font-size: 24px;
+}
+.address-footer p {
+    font-weight: 400;
+    padding-bottom: 15px;
+    font-size: 20px;
+}
+.menus p {
+    text-align: left;
+    letter-spacing: 0px;
+    color: #303E47;
+    margin-top: 50px;
+}
+.footer_section.home-page-footer {
+    padding-bottom: 25px;
+}
+.address-footer i {
+    font-size: 30px;
+    margin-top: 40px;
+    margin-right: 15px;
+}
+a.navbar-brand.mobile-view img {
+    display: none;
+    width: 100%;
+    max-width: 70px;
+}
+.banner-head .nav_logo {
+    padding: 0px 0;
+}
+
+@keyframes pulse{
+    0%{
+        transform: scale(1);
+    }
+    25%{
+        transform: scale(0.8);
+    }
+    50%{
+        transform: scale(1);
+    }
+    75%{
+        transform: scale(0.8);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+.vegitriations .right-side p{
+    /* font-family: "museo-sans"; */
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+}
+.follow-us p {
+    margin-top: 155px;
+}
+.follow-us span {
+    margin-right: 15px;
+    font-size: 24px;
+    /* font-family:"museo"; */
+    font-family: 'Open Sans', sans-serif;
+}
+.follow-us i {
+    margin-right: 10px;
+    font-size: 32px;
+}
+.footer-logo.mobile-view {
+    display: none;
+}
+.cart {
+    text-align: right;
+    position: absolute;
+    top: 20px;
+    right: 40px;
+}
+.cart i {
+    font-size: 22px;
+    color: #303E47;
+}
+/*section.banner-head.the-menu {
+    height: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #303E47 0% 0% no-repeat padding-box;
+    padding: 40px 0;
+}*/
+section.banner-head1.the-menu {
+    height: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 0;
+}
+.menu-page h2 {
+    color: #98CEC0;
+    margin: 0;
+    font-size: 50px;
+}
+section.food-wine {
+    padding: 100px 0 20px;
+    border-bottom: 2px solid #707070;
+    margin-bottom: 80px;
+}
+.food-wine-searh {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.food-content span {
+    letter-spacing: 0px;
+    color: #303E47;
+    font-size: 42px;
+    text-transform: uppercase;
+    margin-right: 30px;
+    font-weight: 600;
+}
+span.active {
+    color: #98CEC0;
+}
+.food-search input {
+    border: none;
+    letter-spacing: 0px;
+    color: #303E47;
+    text-transform: uppercase;
+    width: auto;
+    text-align: left;
+    font-size: 14px;    
+}
+.food-search i {
+    margin-right: 5px;
+}
+.food-search input:focus {
+    outline: none;
+}
+.food-tab-content .nav-tabs {
+    border-bottom: none;
+}
+.food-tab-content .nav-tabs .nav-link {
+    border: 1.5px solid #303E47;
+    border-radius: 28px;
+    letter-spacing: 0px;
+    color: #303E47;
+    font-size: 14px;
+    margin-right: 20px;
+    margin-top: 25px;
+    padding: 0 20px;
+    height: 40px;
+    line-height: 36px;
+    /* font-family: "museo-sans"; */
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+.pindi-chole .hover-effect:hover:after {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    background: #303E47;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    z-index: 9;
+}
+.hover-effect {
+    position: relative;
+    overflow: hidden;
+}
+.food-tab-content .nav-tabs .nav-link.active, .food-tab-content .nav-tabs .nav-link:hover {
+    border-color: #303e47;
+    background: #98CEC0 0% 0% no-repeat padding-box;
+}
+
+.food-tab-content {
+    padding: 20px 0 0px;
+}
+.food-boxes .pindi-chole h2 {
+    font-size: 24px;
+    font-weight: 600;
+}
+.food-boxes .pindi-chole .btn.btn-large.order-now {
+    position: inherit;
+    bottom: 0;
+    margin-top: 20px;
+    border: 1px solid #303E47;
+    margin: 0;
+    font-size: 12px;
+    margin-right: 12px;
+    height: 38px;
+}
+.QUANTITY{
+    text-align: left;
+    position: relative !important;
+    width: 60%;
+}
+section.main-pindi-chole.food-boxes {
+    padding: 0px 0 0 0;
+}
+.tab-content{
+    padding: 60px 0 40px 0;
+}
+.total-text h2 {
+    height: inherit;
+    text-align: left;
+    display: inline-block;
+    float: left;
+    width: 50%;
+}
+.total-text ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+.total-text ul li{
+    margin-left: 10px;
+    margin-right: 10px;
+    display: inherit;
+}
+.total-text {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0 0px;
+}
+.minus-plus {
+    position: absolute;
+    top: 7px;
+    right: 10px;
+    display: flex;
+}
+.minus-plus input {
+    width: 30px;
+    height: 22px;
+    margin: 0 5px;
+    border: none;
+    text-align: center;
+}
+.review-section span {
+    position: inherit;
+    float: right;
+    /* font-family: "museo-sans"; */
+    font-family: 'Open Sans', sans-serif;
+}
+.minus-plus p {
+    font-size: 18px;
+    margin: 0;
+    line-height: 21px;
+}
+.review-section {
+    margin: 15px 0;
+}
+section.main-pindi-chole.food-boxes .col.col-md-4 {
+    margin-bottom: 40px;
+}
+.free-content.mobile-svg svg {
+    display: none;
+}
+.total-text ul li svg {
+    margin-right: 5px;
+    position: relative;
+    top: 3px;
+}
+.hover-effect h3 {
+    position: absolute;
+    bottom: -150px;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+    padding: 0 10px;
+    font-weight: 400;
+    font-size: 20px;
+    left: 0;
+    right: 0;
+    transition: all 0.2s linear;
+}
+.hover-effect:hover h3 {
+    bottom: 0;
+    top: 0;
+    display: flex;
+    z-index: 99;
+    align-items: center;
+    justify-content: center;
+}
+section.main_content.full-content .right-side h2 img {
+    width: 100%;
+    max-width: 40px;
+}
+.mobile-follow i {
+    display: none;
+}
+img.mobile-logos {
+    display: none;
+}
+.food-content span a{
+    color: inherit;
+    text-decoration: none;
+}
+.fill-col svg {
+    fill: #98cec0;
+}
+.fill-col svg .a {
+    fill: #98cec0;
+}
+
+.hideAllconDivs{
+    display: none;
+}
+.show{
+    display: block;
+}
+section.vegitriations.mobile-none {
+    display: none;
+}
+section.vegitriations.desktop-none {
+    /*display: none;*/
+}
+.food-boxes .pindi-chole .btn.btn-large.order-now:last-child {
+    margin-right: 0 !important;
+}
+.home-product .hover-effect:hover h3, .home-product .hover-effect h3{
+    display: none;
+}
+.home-product .pindi-chole .hover-effect:hover:after{
+    background-color: transparent;
+    width: 0;
+    height: 0;
+}
+/***************** Responsive ***************/
+@media screen and (max-width: 1200px) {
+.right-side img {
+    width: 100%;
+}
+.spice-content.full-content .right-side p {
+    padding: 0 15px;
+}
+.full-content .right-side p {
+    padding: 0 15px;
+}
+.veg-text img {
+    float: none;
+    margin: 30px auto;
+    display: block;
+}
+.veg-text {
+    display: inline-block;
+    margin: 0px 0;
+}
+.QUANTITY{
+    width: 55%;
+}
+.minus-plus input {
+    width: 20px;
+}
+}
+@media screen and (max-width: 991px) {
+/* .banner-head-without .collapse {
+    display: block;
+} */
+.total-text ul li {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.left-side img {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+section.food-wine {
+    padding: 60px 0 20px;
+}
+.box-veg{
+    width: 49%;
+}
+.QUANTITY {
+    width: 100%;
+    margin-bottom: 15px !important;
+}
+.btn.btn-large.order-now {
+    width: 170px;
+    padding: 10px !important;
+}
+button.navbar-toggler:focus {
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+.free-content h2 {
+    font-size: 15px;
+}
+.banner-head-without ul.navbar-nav{
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+}
+.food-boxes .pindi-chole h2{
+    font-size: 20px;
+}
+.banner-head{
+    height: 440px;
+}
+.banner-head div#navbarSupportedContent {
+    background: #303e47;
+    padding: 20px;
+}
+.banner-head ul.navbar-nav{
+    align-items: flex-start;
+}
+button.navbar-toggler {
+    color: #303e47;
+}
+a.navbar-brand.mobile-view img {
+    display: block;
+    max-width: 180px;
+}
+a.nav-link{
+    font-size: 16px;
+}
+.banner-head{
+    padding: 10px 0 60px;
+}
+.banner-head div#navbarSupportedContent li.nav-item.logo {
+    display: none;
+}
+.food-boxes .pindi-chole .btn.btn-large.order-now {
+    margin-right: 0px !important;
+    width: 100%;
+}
+}
+@media screen and (max-width: 767px) {
+    .col.col-md-5, .col.col-md-7 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    section.vegitriations.desktop-none {
+        display: none;
+    }
+    button.btn.btn-large.btn-veg {
+        padding: 0px 15px;
+        width: 150px;
+        text-align: left;
+    }
+    button.btn.btn-large.btn-veg i {
+        font-size: 20px;
+        float: right;
+    }
+    .vegitriations .right-side p{
+        font-size: 20px;
+    }
+    .remove{
+        display: none;
+    }
+    .minus-plus input {
+        width: 50px;
+    }
+    img.desktop_logos {
+        display: none;
+    }
+    .food-content {
+        order: 2;
+    }
+    .food-search {
+        display: flex;
+        margin-bottom: 20px;
+    }
+    .food-wine .col.col-md-12 {
+        flex: 0 0 100%;
+        display: none;
+    }
+    .food-wine.food-wine-responsive .col.col-md-12 {
+        display: block;
+    }
+    .mobile-follow i {
+        display: inline-block;
+    }
+    .menu-page h2 {
+        font-size: 30px;
+        text-align: center;
+    }
+    .right-side h2{
+        font-size: 28px;
+    }
+    .enjoy-free {
+        margin-bottom: 40px;
+    }
+    .btn.btn-large.order-now{
+        padding: 0 50px;
+    }
+    button.navbar-toggler {
+        font-size: 30px;
+    }
+    .box-veg img{
+        margin: 0 auto 20px;
+        display: block;
+    }
+    .free-content h2 {
+        font-size: 28px;
+    }
+    .free-content {
+        background-image: none;
+        padding: 10px 0;
+    }
+    .col.col-md-6, .col.col-md-4 {
+        flex: 0 0 100%;
+        margin-bottom: 60px;
+    }
+    .full-content .right-side p {
+        padding: 0 0px;
+    }
+
+    .main-pindi-chole {
+        padding: 0px 30px 20px;
+    }
+    .pindi-chole img {
+        height: 320px;
+        object-fit: cover;
+    }
+    section.main_content.full-content {
+        padding-top: 0;
+        padding-bottom: 20px;
+    }
+    .col.col-md-7 .right-side {
+        margin-top: 0px;
+        text-align: center;
+    }
+    .box-veg{
+        width: 48%;
+    }
+    .banner-head{
+        height: 250px;
+    }
+    .banner-head-without a.nav-link{
+        font-size: 14px;
+    }
+    .banner-head-without .nav_logo {
+        padding: 20px 0 20px;
+    }
+    .banner-head-without ul.navbar-nav{
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .banner-head-without li.nav-item {
+        padding: 10px 0;
+    }
+    .right-side p{
+        font-size: 18px;
+    }
+    .footer-logo.mobile-view {
+        display: block;
+        padding-bottom: 30px;
+    }
+    .footer-logo.desktop_view {
+        display: none;
+    }
+    .footer_section.home-page-footer .row {
+        flex-direction: column;
+    }
+    .footer_section.home-page-footer .col.col-md-5 {
+        order: 2;
+    }
+    .follow-us p {
+        margin-top: 20px;
+        margin-bottom: 0;
+    }
+    section.main_content.full-content button.btn.btn-large.btn-resize{
+        margin-bottom: 0;
+    }
+    .food-wine-searh {
+        flex-direction: column;
+    }
+    .food-content {
+        margin-bottom: 15px;
+    }
+    .button-boxes {
+        display: flex;
+        justify-content: space-between;
+    }
+    .top_logo.mobile-color {
+        background: #273C45;
+    }
+    .mobile-content.banner_content.logo_content.text-center {
+        background: #8FCBBD;
+        padding: 10px;
+    }
+    .logo_content h2 {
+        color: #233037;
+    }
+    .main_content.indian-table .row {
+        flex-direction: column-reverse;
+    }
+    .main_content.indian-table .row .col.col-md-5 {
+        margin-top: 33px;
+    }
+    section.main_content.full-content .right-side {
+        padding: 0 15px;
+    }
+    .main_content.full-content .right-side h2 {
+        font-weight: 700;
+        font-size: 26px;
+    }
+    .vegitriations .row {
+        flex-direction: column-reverse;
+    }
+    .vegitriations .row .right-side {
+        text-align: center;
+    }
+    .free-content.mobile-svg svg {
+        display: block;
+        margin: 0 auto 30px;
+    }
+    .address-footer .menus {
+        display: none;
+    }
+    .footer-logo.mobile-view {
+        order: 2;
+        text-align: center;
+        background: #303E47;
+        padding-top: 30px;
+        margin-bottom: 30px;
+    }
+    .address-footer {
+        display: flex;
+        flex-direction: column;
+    }
+    .open-hourly {
+        order: 1;
+        text-align: center;
+    }   
+    .address-london {
+        order: 3;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    .follow-us span {
+        display: none;
+    }
+    .follow-us {
+        text-align: center;
+    }
+    .desktop-logo{
+        display: none;
+    }
+    section.food-wine{
+        margin-bottom: 30px;
+    }
+    section.main_content.full-content .right-side h2 img {
+        display: none;
+    }
+    img.mobile-logos {
+        display: block;
+    }
+    .food-boxes .pindi-chole .btn.btn-large.order-now {
+        margin-right: 10px !important;
+    }
+    section.vegitriations.mobile-none {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 480px) {
+.free-content h2 {
+    font-size: 20px;
+}
+.button-boxes{
+    flex-direction: column;
+}
+.vegitriations {
+    padding: 60px 0 0;
+}
+.logo_content h2 {
+    font-size: 16px;
+}
+
+.logo_img img {
+    max-width: 100%;
+}
+.footer-logo img{
+    max-width: 250px;
+}
+.col.col-md-6, .col.col-md-4{
+    margin-bottom: 0px;
+}
+.cart {
+    top: 51px;
+    right: 68px;
+}
+.food-content span{
+    font-size: 34px;
+}
+.food-search input {
+    width: 100%;
+    padding: 0px 5px;
+    font-size: 14px;
+}
+.food-tab-content .nav-tabs .nav-link {
+      font-size: 15px;
+    margin-right: 10px;
+    margin-top: 15px;
+    padding: 0 20px;
+    height: 37px;
+    line-height: 33px;
+    width: 300px;
+    text-align: center;
+}
+.food-tab-content .nav-tabs li{
+    margin: 0px auto;
+}
+.tab-content {
+    padding: 0px 0 0 0;
+}
+.food-boxes .pindi-chole h2 {
+    font-size: 20px;
+    height: inherit;
+}
+.food-tab-content .nav-tabs {
+    margin-bottom: 30px;
+}
+section.food-wine {
+    padding: 50px 0 20px;
+}
+.food-boxes .pindi-chole .btn.btn-large.order-now {
+    width: 100%;
+    font-size: 12px;
+    padding: 0 14px;
+    height: 34px;
+    margin-right: 5px;
+    margin: 10px 0;
+}
+.minus-plus{
+    top: 4px;
+}
+}
+
+@media screen and (max-width: 360px) {
+.food-tab-content .nav-tabs .nav-link{
+    padding: 0 15px;
+    width: 300px;
+    text-align: center;
+}
+.food-tab-content .nav-tabs li{
+    margin: 0px auto;
+}
+.menu-page h2{
+    font-size: 40px;
+}
+}
+.right-side img {
+    height: 100%;
+    width: 100%;
+    }
+ input{
+    color: #707070!important;
+ } 
+ .menu-img{
+    background-image: url("img/bgg.png"!important);
+ }

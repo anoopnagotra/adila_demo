@@ -1,0 +1,88 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load tagconstants %}
+{% block pagecontent %}
+
+    <div class="page-wrapper">
+        {% include 'partials/header.html' %}
+        <main class="main">
+            <nav aria-label="breadcrumb" class="breadcrumb-nav">
+                <div class="container">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="index.html"><i class="icon-home"></i></a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Order History</li>
+                    </ol>
+                </div><!-- End .container -->
+            </nav>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-9 order-lg-last dashboard-content">
+                        <h2>Order History</h2>
+                        <div class="table-responsive">
+                            <table class="table">
+                                <tr style="background: #CCC;">
+                                    <th width="25%">Numbers Purchased</th>
+                                    <th width="20%">Amount</th>
+                                    <th width="30%">Date</th>
+                                </tr>
+                                {% if orders %}
+                                    {% for data in orders %}
+                                    <tr>
+                                         <td>
+                                            {% for number in data.numbers  %}
+                                                <b>{{number}}</b> <br />
+                                             {% endfor %}
+
+                                        </td>
+                                        <td>Rs. {{ data.txn_amount }}/-</td>
+                                       
+                                        <td>{{ data.created }}
+                                            <br />
+                                            {% if data.resp_status == 'PENDING '%}
+                                                <span class="badge badge-warning">PENDING</span>
+                                            {% elif data.resp_status == 'TXN_FAILURE' %}
+                                                <span class="badge badge-danger">FAILED</span>
+                                            {% elif data.resp_status == 'TXN_SUCCESS' %}
+                                                <span class="badge badge-primary">SUCCESS</span>
+                                            {% elif data.payment_mode == 'UPI Payment' %}
+                                                <span class="badge badge-warning">PENDING</span>
+                                            {% endif %}
+                                            <span class="badge badge-warning">{{ data.payment_mode }}</span>
+                                        </td>
+                                    </tr>
+                                {% endfor %}
+                                {% else %}
+                                    <tr>
+                                        <td colspan="4" align="center">No order found.</td>
+                                    </tr>
+                                {% endif %}
+                            </table>
+                        </div>
+                    </div><!-- End .col-lg-9 -->
+
+                    <aside class="sidebar col-lg-3">
+                        <div class="widget widget-dashboard">
+                            <h3 class="widget-title">My Account</h3>
+
+                            <ul class="list">
+                                <li><a href="{% url 'updateUserProfile' %}">Edit Profile</a></li>
+                                <li><a href="{% url 'changePassword' %}">Change Password</a></li>
+                                <li><a href="{% url 'myWishlist' %}">My Wishlist</a></li>
+                                <!-- <li class="active"><a href="{% url 'ordersList' %}">My Orders</a></li> -->
+                                <li><a href="{% url 'logout' %}">Logout</a></li>
+                            </ul>
+                        </div><!-- End .widget -->
+                    </aside><!-- End .col-lg-3 -->
+                </div><!-- End .row -->
+            </div><!-- End .container -->
+
+            <div class="mb-5"></div><!-- margin -->
+        </main><!-- End .main -->
+        {% include 'partials/footer.html' %}
+    </div><!-- End .page-wrapper -->
+
+    <div class="mobile-menu-overlay"></div><!-- End .mobil-menu-overlay -->
+    {% include 'partials/mobile_menu_container.html' %}
+    {% include 'partials/add_to_cart.html' %}
+{% endblock %}

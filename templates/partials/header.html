@@ -1,0 +1,65 @@
+{% load static %}
+<style>
+    .count-cart{
+      background-color: #98CEC0;
+      border-radius: 50%;
+      font-size: 14px;
+      padding: 1px 4px 0px 2px;
+      margin: -7px 0px 3px -5px;
+      position: absolute;
+    }
+</style>
+<section class="nav-section banner-head-without">
+   {% if request.path != '/'%}
+      <div class="cart">
+          <a href="/cart/">
+              <i class="fa fa-shopping-cart">
+                {% if cart_count %}
+                  <span class="count-cart cart-count">{{cart_count}}</span>
+                {% else %}
+                  <span class="count-cart cart-count">0</span>
+                {% endif %}
+              </i>
+          </a>
+      </div>
+    {% endif %}
+    <div class="container">
+        <div class="row">
+            <div class="col col-md-12">
+                 <div class="nav_logo">
+                    <nav class="navbar navbar-expand-lg">
+                        <a class="navbar-brand mobile-view" href="/">
+                            <img src="{% static 'assets/img/logo-tag.png' %}" alt="image">
+                        </a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                          <i class="fa fa-bars"></i>
+                        </button>
+                      
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                          <ul class="navbar-nav">
+                            <li class="nav-item active">
+                              <a class="nav-link" href="/menu/">MENU </a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="/reservations/">RESERVATIONS</a>
+                            </li>
+                            <li class="nav-item logo remove">
+                                    <a class="nav-link" href="/">
+                                        <img src="{% static 'assets/img/logo.png' %}">
+                                </a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="/delivery/">DELIVERY</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="/contact/">CONTACT</a>
+                              </li>
+                          </ul>
+                        </div>
+                      </nav>
+                 </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% include 'partials/messages.html' %}

@@ -1,0 +1,105 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load tagconstants %}
+{% block pagecontent %}
+
+    <div class="page-wrapper">
+        {% include 'partials/header.html' %}
+        <main class="main">
+            <nav aria-label="breadcrumb" class="breadcrumb-nav">
+                <div class="container">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="index.html"><i class="icon-home"></i></a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Dashboard</li>
+                    </ol>
+                </div><!-- End .container -->
+            </nav>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-9 order-lg-last dashboard-content">
+                        <h2>My Wishlist</h2>
+                        <div class="row">
+                            {% if numbers %}
+                            {% for number in numbers %}
+                            <!-- number col start -->
+                            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12" id="number-card-wishlist_{{ number.numbers.id }}">
+                                <div class="box-part text-center home-pg-number-col">
+                                    <div class="table-resposnive" >
+                                        <table class="table" >
+                                            <tr class="number-card-price-row">
+                                                <td>
+                                                    <div class="ratings-container">
+                                                        <div class="product-ratings">
+                                                            <span class="ratings"></span> 
+                                                            <!-- End .ratings -->
+                                                        </div><!-- End .product-ratings -->
+                                                    </div><!-- End .product-container -->
+                                                    <small class="number-price">{{ number.numbers.purchase_price }}/-</small>
+                                                </td>
+                                            </tr>
+                                            <tr class="number-casrd-row-no number-quick-view" data-id="{{ number.numbers.id}}" style="cursor: pointer">
+                                                <td>
+                                                    <h3 class="number-display-cell">{{ number.numbers.display_number }}</h3>
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="number-card-sum-row">
+                                                    Total - <b>{{ number.numbers.total_sum }}</b> | Sum - <b>{{ number.numbers.end_sum }}</b> 
+                                                    {% if number.numbers.rtp %}
+                                                        | <span class="badge badge-danger" data-toggle="tooltip" data-placement="top" title="Listed Ready To Port|Any State|Any Operator|Any Plan;Prepaid or Postpaid|Quick MNP">R2P</span>
+                                                    {% endif %}
+                                                </td>
+                                            </tr>
+                                            <tr class="numbers-card-actions-tr">
+                                                <td class="numbers-card-actions-td">
+                                                    <span class="number-card-views" id="numbercard_{{ number.numbers.id }}"><i class="fa fa-eye"></i> {{ number.numbers.total_views }}</span>
+                                                    <span class="already-wishlist" data-wish="yes" data-status="0" id="numberwish_{{ number.numbers.id }}"><i class="fa fa-heart"></i> {{ number.numbers.total_likes }}</span>
+                                                    <span class="number-card-btn-actions add-number-cart" id="addnumbercart_{{ number.numbers.id }}"><i class="fa fa-shopping-cart"></i></span>
+                                                    
+                                                    <a href="buy-number/{{ number.numbers.id }}" class="number-card-btn-actions"><i class="fa fa-shopping-bag"></i></a>
+                                                </td>
+
+                                            </tr>
+                                        </table>
+                                    </div>
+                                 </div>
+                            </div><!-- number col start -->
+                            {% endfor %}
+                            {% else %}
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                    <center> No numbers in your wishlist</center>
+                                </div>
+                            {% endif %}
+
+                        </div>
+                    </div><!-- End .col-lg-9 -->
+
+                    <aside class="sidebar col-lg-3">
+                        <div class="widget widget-dashboard">
+                            <h3 class="widget-title">My Account</h3>
+
+                            <ul class="list">
+                                <li><a href="{% url 'updateUserProfile' %}">Edit Profile</a></li>
+                                <li><a href="{% url 'changePassword' %}">Change Password</a></li>
+                                <li class="active"><a href="{% url 'myWishlist' %}">My Wishlist</a></li>
+                                <!-- <li><a href="{% url 'ordersList' %}">My Orders</a></li> -->
+                                <li><a href="{% url 'logout' %}">Logout</a></li>
+                            </ul>
+                        </div><!-- End .widget -->
+                    </aside><!-- End .col-lg-3 -->
+                </div><!-- End .row -->
+            </div><!-- End .container -->
+
+            <div class="mb-5"></div><!-- margin -->
+        </main><!-- End .main -->
+        {% include 'partials/footer.html' %}
+    </div><!-- End .page-wrapper -->
+
+    <div class="mobile-menu-overlay"></div><!-- End .mobil-menu-overlay -->
+    {% include 'partials/mobile_menu_container.html' %}
+    {% include 'partials/modals.html' %}
+    {% include 'partials/add_to_cart.html' %}
+
+{% endblock %}

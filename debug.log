@@ -1,0 +1,1727 @@
+ERROR 2021-02-07 16:11:49,460 basehttp 18037 140128935974656 "GET / HTTP/1.1" 500 59
+ERROR 2021-02-07 16:11:49,685 basehttp 18037 140128935974656 "GET /favicon.ico HTTP/1.1" 500 59
+ERROR 2021-02-07 16:11:56,859 basehttp 18037 140128890603264 "GET /static/jet/css/themes/default/jquery-ui.theme.css?v=1.0.8 HTTP/1.1" 500 59
+ERROR 2021-02-07 16:11:56,922 basehttp 18037 140128927581952 "GET /static/jet/css/vendor.css?v=1.0.8 HTTP/1.1" 500 59
+ERROR 2021-02-07 16:11:56,955 basehttp 18037 140128935974656 "GET /static/admin/css/base.css HTTP/1.1" 500 59
+ERROR 2021-02-07 16:11:57,002 basehttp 18037 140128907650816 "GET /static/jet/css/themes/default/base.css?v=1.0.8 HTTP/1.1" 500 59
+ERROR 2021-02-07 16:11:57,025 basehttp 18037 140128899258112 "GET /static/jet/css/themes/default/select2.theme.css?v=1.0.8 HTTP/1.1" 500 59
+ERROR 2021-02-07 16:11:57,066 basehttp 18037 140128916305664 "GET /static/jet/css/icons/style.css?v=1.0.8 HTTP/1.1" 500 59
+ERROR 2021-02-07 16:11:57,188 basehttp 18037 140128890603264 "GET /static/admin/css/login.css HTTP/1.1" 500 59
+ERROR 2021-02-07 16:11:57,226 basehttp 18037 140128907650816 "GET /static/jet/js/i18n/select2/en.js?v=1.0.8 HTTP/1.1" 500 59
+ERROR 2021-02-07 16:11:57,227 basehttp 18037 140128935974656 "GET /static/jet/js/build/bundle.min.js?v=1.0.8 HTTP/1.1" 500 59
+ERROR 2021-02-07 16:11:57,329 basehttp 18037 140128907650816 "GET /favicon.ico HTTP/1.1" 500 59
+ERROR 2021-02-07 16:12:17,509 basehttp 18081 140018733221632 "GET /static/jet/css/vendor.css?v=1.0.8 HTTP/1.1" 500 59
+ERROR 2021-02-07 16:12:17,541 basehttp 18081 140018722469632 "GET /static/jet/css/icons/style.css?v=1.0.8 HTTP/1.1" 500 59
+ERROR 2021-02-07 16:12:17,559 basehttp 18081 140018741614336 "GET /static/admin/css/base.css HTTP/1.1" 500 59
+ERROR 2021-02-07 16:12:17,593 basehttp 18081 140018705422080 "GET /static/jet/css/themes/default/select2.theme.css?v=1.0.8 HTTP/1.1" 500 59
+ERROR 2021-02-07 16:12:17,694 basehttp 18081 140018714076928 "GET /static/jet/css/themes/default/base.css?v=1.0.8 HTTP/1.1" 500 59
+ERROR 2021-02-07 16:12:17,704 basehttp 18081 140018697029376 "GET /static/jet/css/themes/default/jquery-ui.theme.css?v=1.0.8 HTTP/1.1" 500 59
+ERROR 2021-02-07 16:12:20,514 basehttp 18081 140018733221632 "GET /static/admin/css/login.css HTTP/1.1" 500 59
+ERROR 2021-02-07 16:12:20,534 basehttp 18081 140018722469632 "GET /static/jet/js/i18n/select2/en.js?v=1.0.8 HTTP/1.1" 500 59
+ERROR 2021-02-07 16:12:20,550 basehttp 18081 140018705422080 "GET /static/jet/js/build/bundle.min.js?v=1.0.8 HTTP/1.1" 500 59
+ERROR 2021-02-07 16:12:21,386 basehttp 18081 140018705422080 "GET /static/jet/js/i18n/select2/en.js?v=1.0.8 HTTP/1.1" 500 59
+ERROR 2021-02-07 16:12:22,284 basehttp 18081 140018705422080 "GET /favicon.ico HTTP/1.1" 500 59
+ERROR 2021-02-07 16:12:25,366 basehttp 18081 140018705422080 "GET / HTTP/1.1" 500 59
+ERROR 2021-02-07 16:12:26,234 basehttp 18081 140018705422080 "GET /favicon.ico HTTP/1.1" 500 59
+ERROR 2021-02-16 12:27:10,662 log 11712 140601056032512 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/meetu/p_p/vip_number/venv/lib/python3.6/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/meetu/p_p/vip_number/venv/lib/python3.6/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/home/meetu/p_p/vip_number/venv/lib/python3.6/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/meetu/p_p/vip_number/venv/lib/python3.6/site-packages/django/template/base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "/home/meetu/p_p/vip_number/venv/lib/python3.6/site-packages/django/template/base.py", line 903, in render_annotated
+    return self.render(context)
+  File "/home/meetu/p_p/vip_number/venv/lib/python3.6/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/home/meetu/p_p/vip_number/venv/lib/python3.6/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/meetu/p_p/vip_number/venv/lib/python3.6/site-packages/django/template/base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "/home/meetu/p_p/vip_number/venv/lib/python3.6/site-packages/django/template/base.py", line 903, in render_annotated
+    return self.render(context)
+  File "/home/meetu/p_p/vip_number/venv/lib/python3.6/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/home/meetu/p_p/vip_number/venv/lib/python3.6/site-packages/django/template/base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "/home/meetu/p_p/vip_number/venv/lib/python3.6/site-packages/django/template/base.py", line 903, in render_annotated
+    return self.render(context)
+  File "/home/meetu/p_p/vip_number/venv/lib/python3.6/site-packages/django/template/loader_tags.py", line 176, in render
+    template = context.template.engine.get_template(template_name)
+  File "/home/meetu/p_p/vip_number/venv/lib/python3.6/site-packages/django/template/engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "/home/meetu/p_p/vip_number/venv/lib/python3.6/site-packages/django/template/engine.py", line 129, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: partials/category_slider.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/meetu/p_p/vip_number/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/meetu/p_p/vip_number/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/meetu/p_p/vip_number/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/meetu/p_p/vip_number/venv/lib/python3.6/site-packages/sentry_sdk/integrations/django/views.py", line 51, in callback
+    return old_callback(*args, **kwargs)
+  File "/home/meetu/p_p/vip_number/venv/lib/python3.6/site-packages/sentry_sdk/integrations/django/views.py", line 51, in callback
+    return old_callback(*args, **kwargs)
+  File "/home/meetu/p_p/riwaz/vip_number/vip_number/users/views.py", line 42, in home
+    return render(request, 'home/index.html', {"cartVal": cartVal, 'getHomeImages': getHomeImages, 'testimonials': testimonials})
+  File "/home/meetu/p_p/vip_number/venv/lib/python3.6/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/meetu/p_p/vip_number/venv/lib/python3.6/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/meetu/p_p/vip_number/venv/lib/python3.6/site-packages/django/template/backends/django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "/home/meetu/p_p/vip_number/venv/lib/python3.6/site-packages/django/template/backends/django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: partials/category_slider.html
+ERROR 2021-02-16 12:27:10,664 basehttp 11712 140601056032512 "GET / HTTP/1.1" 500 192446
+ERROR 2021-02-16 12:45:31,220 log 11712 140601030854400 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/meetu/p_p/vip_number/venv/lib/python3.6/site-packages/django/template/base.py", line 469, in parse
+    compile_func = self.tags[command]
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/meetu/p_p/vip_number/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/meetu/p_p/vip_number/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/meetu/p_p/vip_number/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/meetu/p_p/vip_number/venv/lib/python3.6/site-packages/sentry_sdk/integrations/django/views.py", line 51, in callback
+    return old_callback(*args, **kwargs)
+  File "/home/meetu/p_p/vip_number/venv/lib/python3.6/site-packages/sentry_sdk/integrations/django/views.py", line 51, in callback
+    return old_callback(*args, **kwargs)
+  File "/home/meetu/p_p/riwaz/vip_number/vip_number/users/views.py", line 42, in home
+    return render(request, 'home/index.html', {"cartVal": cartVal, 'getHomeImages': getHomeImages, 'testimonials': testimonials})
+  File "/home/meetu/p_p/vip_number/venv/lib/python3.6/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/meetu/p_p/vip_number/venv/lib/python3.6/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/meetu/p_p/vip_number/venv/lib/python3.6/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/meetu/p_p/vip_number/venv/lib/python3.6/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/home/meetu/p_p/vip_number/venv/lib/python3.6/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/meetu/p_p/vip_number/venv/lib/python3.6/site-packages/django/template/base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "/home/meetu/p_p/vip_number/venv/lib/python3.6/site-packages/django/template/base.py", line 903, in render_annotated
+    return self.render(context)
+  File "/home/meetu/p_p/vip_number/venv/lib/python3.6/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/home/meetu/p_p/vip_number/venv/lib/python3.6/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/meetu/p_p/vip_number/venv/lib/python3.6/site-packages/django/template/base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "/home/meetu/p_p/vip_number/venv/lib/python3.6/site-packages/django/template/base.py", line 903, in render_annotated
+    return self.render(context)
+  File "/home/meetu/p_p/vip_number/venv/lib/python3.6/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/home/meetu/p_p/vip_number/venv/lib/python3.6/site-packages/django/template/base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "/home/meetu/p_p/vip_number/venv/lib/python3.6/site-packages/django/template/base.py", line 903, in render_annotated
+    return self.render(context)
+  File "/home/meetu/p_p/vip_number/venv/lib/python3.6/site-packages/django/template/loader_tags.py", line 176, in render
+    template = context.template.engine.get_template(template_name)
+  File "/home/meetu/p_p/vip_number/venv/lib/python3.6/site-packages/django/template/engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "/home/meetu/p_p/vip_number/venv/lib/python3.6/site-packages/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/home/meetu/p_p/vip_number/venv/lib/python3.6/site-packages/django/template/loaders/base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "/home/meetu/p_p/vip_number/venv/lib/python3.6/site-packages/django/template/base.py", line 156, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/home/meetu/p_p/vip_number/venv/lib/python3.6/site-packages/django/template/base.py", line 194, in compile_nodelist
+    return parser.parse()
+  File "/home/meetu/p_p/vip_number/venv/lib/python3.6/site-packages/django/template/base.py", line 471, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/home/meetu/p_p/vip_number/venv/lib/python3.6/site-packages/django/template/base.py", line 533, in invalid_block_tag
+    "or load this tag?" % (token.lineno, command)
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 6: 'static'. Did you forget to register or load this tag?
+ERROR 2021-02-16 12:45:31,221 basehttp 11712 140601030854400 "GET / HTTP/1.1" 500 222238
+ERROR 2021-03-29 04:51:30,201 log 12142 140694438979328 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/meetu/p_p/riwaz/riwaz/riwaz/users/views.py", line 42, in home
+    return render(request, 'home/index.html', {"cartVal": cartVal, 'getHomeImages': getHomeImages, 'testimonials': testimonials})
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/loaders/base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/loader_tags.py", line 270, in do_extends
+    nodelist = parser.parse()
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/loader_tags.py", line 213, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 483, in parse
+    self.unclosed_block_tag(parse_until)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 544, in unclosed_block_tag
+    raise self.error(token, msg)
+django.template.exceptions.TemplateSyntaxError: Unclosed tag on line 3: 'block'. Looking for one of: endblock.
+ERROR 2021-03-29 04:51:30,226 basehttp 12142 140694438979328 "GET / HTTP/1.1" 500 166306
+ERROR 2021-03-29 04:51:32,420 log 12142 140694438979328 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/meetu/p_p/riwaz/riwaz/riwaz/users/views.py", line 42, in home
+    return render(request, 'home/index.html', {"cartVal": cartVal, 'getHomeImages': getHomeImages, 'testimonials': testimonials})
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/loaders/base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/loader_tags.py", line 270, in do_extends
+    nodelist = parser.parse()
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/loader_tags.py", line 213, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 483, in parse
+    self.unclosed_block_tag(parse_until)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 544, in unclosed_block_tag
+    raise self.error(token, msg)
+django.template.exceptions.TemplateSyntaxError: Unclosed tag on line 3: 'block'. Looking for one of: endblock.
+ERROR 2021-03-29 04:51:32,422 basehttp 12142 140694438979328 "GET / HTTP/1.1" 500 166306
+ERROR 2021-03-29 05:35:35,416 log 12142 140694447372032 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/meetu/p_p/riwaz/riwaz/riwaz/users/views.py", line 42, in home
+    return render(request, 'home/index.html', {"cartVal": cartVal, 'getHomeImages': getHomeImages, 'testimonials': testimonials})
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 170, in render
+    return self._render(context)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/loader_tags.py", line 180, in render
+    template = context.template.engine.select_template(template_name)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/engine.py", line 174, in select_template
+    return self.get_template(template_name)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/loaders/base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/templatetags/static.py", line 159, in do_static
+    return StaticNode.handle_token(parser, token)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/templatetags/static.py", line 133, in handle_token
+    path = parser.compile_filter(bits[1])
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 563, in compile_filter
+    return FilterExpression(token, self)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 663, in __init__
+    "from '%s'" % (token[upto:], token))
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: 'assets/img/logo-tag.png' from ''assets/{% static 'assets/img/logo-tag.png'
+ERROR 2021-03-29 05:35:35,435 basehttp 12142 140694447372032 "GET / HTTP/1.1" 500 225887
+ERROR 2021-03-29 05:35:46,230 log 12142 140694447372032 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/meetu/p_p/riwaz/riwaz/riwaz/users/views.py", line 42, in home
+    return render(request, 'home/index.html', {"cartVal": cartVal, 'getHomeImages': getHomeImages, 'testimonials': testimonials})
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 170, in render
+    return self._render(context)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/loader_tags.py", line 180, in render
+    template = context.template.engine.select_template(template_name)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/engine.py", line 174, in select_template
+    return self.get_template(template_name)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/loaders/base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/templatetags/static.py", line 159, in do_static
+    return StaticNode.handle_token(parser, token)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/templatetags/static.py", line 133, in handle_token
+    path = parser.compile_filter(bits[1])
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 563, in compile_filter
+    return FilterExpression(token, self)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 663, in __init__
+    "from '%s'" % (token[upto:], token))
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: 'assets/img/logo-tag.png' from ''{% static 'assets/img/logo-tag.png'
+ERROR 2021-03-29 05:35:46,231 basehttp 12142 140694447372032 "GET / HTTP/1.1" 500 225731
+ERROR 2021-03-29 06:29:26,031 log 17876 140244566820608 Internal Server Error: /about/
+Traceback (most recent call last):
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 170, in render
+    return self._render(context)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/loader_tags.py", line 180, in render
+    template = context.template.engine.select_template(template_name)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/engine.py", line 180, in select_template
+    raise TemplateDoesNotExist(', '.join(not_found))
+django.template.exceptions.TemplateDoesNotExist: partials/mobile_menu_container.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/meetu/p_p/riwaz/riwaz/riwaz/pages/views.py", line 147, in about
+    return render(request, 'pages/about.html', {'cartVal': cartVal, 'testimonials': testimonials})
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/backends/django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/backends/django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: partials/mobile_menu_container.html
+ERROR 2021-03-29 06:29:26,033 basehttp 17876 140244566820608 "GET /about/ HTTP/1.1" 500 165290
+ERROR 2021-03-29 10:11:42,026 log 26965 140609416599296 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/meetu/p_p/riwaz/riwaz/riwaz/users/views.py", line 32, in home
+    getHomeImages = Homeimages.objects.filter(status = True).all()
+NameError: name 'Homeimages' is not defined
+ERROR 2021-03-29 10:11:42,053 basehttp 26965 140609416599296 "GET / HTTP/1.1" 500 72219
+ERROR 2021-03-29 10:11:42,510 log 26965 140609416599296 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/meetu/p_p/riwaz/riwaz/riwaz/users/views.py", line 32, in home
+    getHomeImages = Homeimages.objects.filter(status = True).all()
+NameError: name 'Homeimages' is not defined
+ERROR 2021-03-29 10:11:42,513 basehttp 26965 140609416599296 "GET / HTTP/1.1" 500 72350
+ERROR 2021-03-29 10:14:04,291 log 27217 140374579021568 Internal Server Error: /menu/
+Traceback (most recent call last):
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/meetu/p_p/riwaz/riwaz/riwaz/pages/views.py", line 855, in menuPage
+    print(categry)
+NameError: name 'categry' is not defined
+ERROR 2021-03-29 10:14:04,292 basehttp 27217 140374579021568 "GET /menu/ HTTP/1.1" 500 72481
+ERROR 2021-03-29 10:18:56,091 log 27436 140402413795072 Internal Server Error: /menu/
+Traceback (most recent call last):
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 470, in parse
+    compile_func = self.tags[command]
+KeyError: 'category'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/meetu/p_p/riwaz/riwaz/riwaz/pages/views.py", line 857, in menuPage
+    return render(request, 'pages/menu-page.html', context)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/loaders/base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/loader_tags.py", line 270, in do_extends
+    nodelist = parser.parse()
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/loader_tags.py", line 213, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 472, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 528, in invalid_block_tag
+    get_text_list(["'%s'" % p for p in parse_until], 'or'),
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 52: 'category', expected 'endblock'. Did you forget to register or load this tag?
+ERROR 2021-03-29 10:18:56,099 basehttp 27436 140402413795072 "GET /menu/ HTTP/1.1" 500 180866
+ERROR 2021-03-29 10:19:19,434 log 27436 140402413795072 Internal Server Error: /menu/
+Traceback (most recent call last):
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 470, in parse
+    compile_func = self.tags[command]
+KeyError: 'category'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/meetu/p_p/riwaz/riwaz/riwaz/pages/views.py", line 857, in menuPage
+    return render(request, 'pages/menu-page.html', context)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/loaders/base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/loader_tags.py", line 270, in do_extends
+    nodelist = parser.parse()
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/loader_tags.py", line 213, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 472, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 528, in invalid_block_tag
+    get_text_list(["'%s'" % p for p in parse_until], 'or'),
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 52: 'category', expected 'endblock'. Did you forget to register or load this tag?
+ERROR 2021-03-29 10:19:19,435 basehttp 27436 140402413795072 "GET /menu/ HTTP/1.1" 500 180856
+ERROR 2021-03-29 15:58:34,947 log 8199 140007289362176 Internal Server Error: /admin/menu/riwazmenu/1/change/
+Traceback (most recent call last):
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    response = response.render()
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/response.py", line 105, in render
+    self.content = self.rendered_content
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/response.py", line 83, in rendered_content
+    return template.render(context, self._request)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 170, in render
+    return self._render(context)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/defaulttags.py", line 312, in render
+    return nodelist.render(context)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/defaulttags.py", line 312, in render
+    return nodelist.render(context)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 988, in render
+    output = self.filter_expression.resolve(context)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 698, in resolve
+    new_obj = func(obj, *arg_vals)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/defaultfilters.py", line 42, in _dec
+    args[0] = str(args[0])
+  File "/home/meetu/p_p/riwaz/riwaz/riwaz/menu/models.py", line 53, in __str__
+    return self.dish_name
+AttributeError: 'RiwazMenu' object has no attribute 'dish_name'
+ERROR 2021-03-29 15:58:34,966 basehttp 8199 140007289362176 "GET /admin/menu/riwazmenu/1/change/ HTTP/1.1" 500 260829
+ERROR 2021-03-30 02:21:50,956 log 9872 140160401364736 Internal Server Error: /add-number-in-bag/
+Traceback (most recent call last):
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/meetu/p_p/riwaz/riwaz/riwaz/pages/views.py", line 684, in addNumberInCart
+    number = request.POST.get('number',None).strip()
+AttributeError: 'NoneType' object has no attribute 'strip'
+ERROR 2021-03-30 02:21:51,002 basehttp 9872 140160401364736 "POST /add-number-in-bag/ HTTP/1.1" 500 72874
+ERROR 2021-03-30 02:36:10,237 log 14972 140464437479168 Internal Server Error: /add-number-in-bag/
+Traceback (most recent call last):
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/meetu/p_p/riwaz/riwaz/riwaz/pages/views.py", line 685, in addNumberInCart
+    dish_id = request.POST.get('dish_id',None).strip()
+AttributeError: 'NoneType' object has no attribute 'strip'
+ERROR 2021-03-30 02:36:10,238 basehttp 14972 140464437479168 "POST /add-number-in-bag/ HTTP/1.1" 500 72861
+ERROR 2021-03-30 02:36:46,564 basehttp 15015 139839571752704 "POST /add-number-in-bag/ HTTP/1.1" 500 59
+ERROR 2021-03-30 02:37:48,389 log 15091 139690432915200 Internal Server Error: /add-number-in-bag/
+Traceback (most recent call last):
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/meetu/p_p/riwaz/riwaz/riwaz/pages/views.py", line 702, in addNumberInCart
+    print(len(dishData))
+TypeError: object of type 'RiwazMenu' has no len()
+ERROR 2021-03-30 02:37:48,389 basehttp 15091 139690432915200 "POST /add-number-in-bag/ HTTP/1.1" 500 73144
+ERROR 2021-03-30 02:38:51,242 basehttp 15150 140601570817792 "POST /add-number-in-bag/ HTTP/1.1" 500 59
+ERROR 2021-03-30 02:44:39,765 log 15411 139901275346688 Internal Server Error: /add-number-in-bag/
+Traceback (most recent call last):
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/meetu/p_p/riwaz/riwaz/riwaz/pages/views.py", line 704, in addNumberInCart
+    dish_Data['dish_id'] = dishData['id']
+TypeError: 'RiwazMenu' object is not subscriptable
+ERROR 2021-03-30 02:44:39,765 basehttp 15411 139901275346688 "POST /add-number-in-bag/ HTTP/1.1" 500 73546
+ERROR 2021-03-30 02:45:33,804 log 15454 140053100214016 Internal Server Error: /add-number-in-bag/
+Traceback (most recent call last):
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/meetu/p_p/riwaz/riwaz/riwaz/pages/views.py", line 714, in addNumberInCart
+    if cart_session:
+NameError: name 'cart_session' is not defined
+ERROR 2021-03-30 02:45:33,805 basehttp 15454 140053100214016 "POST /add-number-in-bag/ HTTP/1.1" 500 74437
+ERROR 2021-03-30 02:46:45,009 log 15586 140132344059648 Internal Server Error: /add-number-in-bag/
+Traceback (most recent call last):
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/meetu/p_p/riwaz/riwaz/riwaz/pages/views.py", line 721, in addNumberInCart
+    response = HttpResponse(json.dumps({ 'status':1, 'msg':'Dish has been added in the cart successfully', 'data': final_data}), content_type='application/json')
+  File "/usr/lib/python3.6/json/__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "/usr/lib/python3.6/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python3.6/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/usr/lib/python3.6/json/encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'RiwazCategory' is not JSON serializable
+ERROR 2021-03-30 02:46:45,010 basehttp 15586 140132344059648 "POST /add-number-in-bag/ HTTP/1.1" 500 96921
+ERROR 2021-03-30 02:49:49,765 log 15659 140497986270976 Internal Server Error: /menu/cart/
+Traceback (most recent call last):
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/meetu/p_p/riwaz/riwaz/riwaz/pages/views.py", line 271, in cart
+    getNumber = Numbers.objects.filter(id = getNumbers['number_id'], number_status=3).first()
+NameError: name 'Numbers' is not defined
+ERROR 2021-03-30 02:49:49,766 basehttp 15659 140497986270976 "GET /menu/cart/ HTTP/1.1" 500 73821
+ERROR 2021-03-30 02:59:35,837 log 16324 140551961249536 Internal Server Error: /menu/cart/
+Traceback (most recent call last):
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/meetu/p_p/riwaz/riwaz/riwaz/pages/views.py", line 300, in cartPage
+    return render(request, 'pages/cart.html', {"cartVal": cartVal, 'total_prices':total_prices})
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/loaders/base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/loader_tags.py", line 270, in do_extends
+    nodelist = parser.parse()
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/loader_tags.py", line 213, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 483, in parse
+    self.unclosed_block_tag(parse_until)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 544, in unclosed_block_tag
+    raise self.error(token, msg)
+django.template.exceptions.TemplateSyntaxError: Unclosed tag on line 3: 'block'. Looking for one of: endblock.
+ERROR 2021-03-30 02:59:35,839 basehttp 16324 140551961249536 "GET /menu/cart/ HTTP/1.1" 500 167957
+ERROR 2021-03-30 03:04:22,005 log 16645 139770813064960 Internal Server Error: /add-number-in-bag/
+Traceback (most recent call last):
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/meetu/p_p/riwaz/riwaz/riwaz/pages/views.py", line 723, in addNumberInCart
+    response = HttpResponse(json.dumps({ 'status':1, 'msg':'Dish has been added in the cart successfully', 'data': final_data}), content_type='application/json')
+  File "/usr/lib/python3.6/json/__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "/usr/lib/python3.6/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python3.6/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/usr/lib/python3.6/json/encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'FieldFile' is not JSON serializable
+ERROR 2021-03-30 03:04:22,007 basehttp 16645 139770813064960 "POST /add-number-in-bag/ HTTP/1.1" 500 97539
+ERROR 2021-03-30 03:04:58,291 log 16683 139716149049088 Internal Server Error: /add-number-in-bag/
+Traceback (most recent call last):
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/meetu/p_p/riwaz/riwaz/riwaz/pages/views.py", line 723, in addNumberInCart
+    response = HttpResponse(json.dumps({ 'status':1, 'msg':'Dish has been added in the cart successfully', 'data': final_data}), content_type='application/json')
+  File "/usr/lib/python3.6/json/__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "/usr/lib/python3.6/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python3.6/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/usr/lib/python3.6/json/encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'FieldFile' is not JSON serializable
+ERROR 2021-03-30 03:04:58,292 basehttp 16683 139716149049088 "POST /add-number-in-bag/ HTTP/1.1" 500 97539
+ERROR 2021-03-30 03:05:28,652 basehttp 16730 140055756162816 "POST /add-number-in-bag/ HTTP/1.1" 500 59
+ERROR 2021-03-30 03:05:54,206 basehttp 16797 140112805848832 "POST /add-number-in-bag/ HTTP/1.1" 500 59
+ERROR 2021-03-30 03:15:02,595 basehttp 17174 139846571771648 "POST /add-number-in-bag/ HTTP/1.1" 500 59
+ERROR 2021-03-30 03:15:28,442 basehttp 17225 140320242804480 "POST /add-number-in-bag/ HTTP/1.1" 500 59
+ERROR 2021-03-30 03:15:54,159 basehttp 17258 140383719962368 "POST /add-number-in-bag/ HTTP/1.1" 500 59
+ERROR 2021-03-30 03:17:25,893 basehttp 17336 140559953938176 "POST /add-number-in-bag/ HTTP/1.1" 500 59
+ERROR 2021-03-30 03:37:19,217 basehttp 3325 140447219001088 "POST /add-number-in-bag/ HTTP/1.1" 500 59
+ERROR 2021-03-30 03:37:37,489 log 3374 139657529493248 Internal Server Error: /add-number-in-bag/
+Traceback (most recent call last):
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/meetu/p_p/riwaz/riwaz/riwaz/pages/views.py", line 690, in addNumberInCart
+    dishFrom = request.POST.get('dishFrom',None).strip()
+AttributeError: 'NoneType' object has no attribute 'strip'
+ERROR 2021-03-30 03:37:37,489 basehttp 3374 139657529493248 "POST /add-number-in-bag/ HTTP/1.1" 500 72968
+ERROR 2021-03-30 03:42:37,237 log 3674 140034181355264 Internal Server Error: /add-number-in-bag/
+Traceback (most recent call last):
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/meetu/p_p/riwaz/riwaz/riwaz/pages/views.py", line 732, in addNumberInCart
+    if dishData['id'] in getCartData['dish_id']:
+TypeError: 'RiwazMenu' object is not subscriptable
+ERROR 2021-03-30 03:42:37,238 basehttp 3674 140034181355264 "POST /add-number-in-bag/ HTTP/1.1" 500 75949
+ERROR 2021-03-30 03:43:04,280 log 3726 139658027505408 Internal Server Error: /add-number-in-bag/
+Traceback (most recent call last):
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/meetu/p_p/riwaz/riwaz/riwaz/pages/views.py", line 732, in addNumberInCart
+    if dishData.id in getCartData['dish_id']:
+TypeError: argument of type 'int' is not iterable
+ERROR 2021-03-30 03:43:04,281 basehttp 3726 139658027505408 "POST /add-number-in-bag/ HTTP/1.1" 500 75919
+ERROR 2021-03-30 03:43:44,677 log 3753 140405344286464 Internal Server Error: /add-number-in-bag/
+Traceback (most recent call last):
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/meetu/p_p/riwaz/riwaz/riwaz/pages/views.py", line 732, in addNumberInCart
+    if int(dishData.id) in int(getCartData['dish_id']):
+TypeError: argument of type 'int' is not iterable
+ERROR 2021-03-30 03:43:44,678 basehttp 3753 140405344286464 "POST /add-number-in-bag/ HTTP/1.1" 500 75939
+ERROR 2021-03-30 03:48:55,376 log 3964 140257537644288 Internal Server Error: /menu/cart/
+Traceback (most recent call last):
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/meetu/p_p/riwaz/riwaz/riwaz/pages/views.py", line 301, in cartPage
+    return render(request, 'pages/cart.html', {"cartVal": cartVal, 'total_prices':total_prices})
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/loaders/base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/loader_tags.py", line 270, in do_extends
+    nodelist = parser.parse()
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/loader_tags.py", line 213, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/defaulttags.py", line 814, in do_for
+    nodelist_loop = parser.parse(('empty', 'endfor',))
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 449, in parse
+    raise self.error(token, e)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 447, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 563, in compile_filter
+    return FilterExpression(token, self)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 663, in __init__
+    "from '%s'" % (token[upto:], token))
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '['dish_id']' from 'dish['dish_id']'
+ERROR 2021-03-30 03:48:55,378 basehttp 3964 140257537644288 "GET /menu/cart/ HTTP/1.1" 500 194019
+ERROR 2021-03-30 08:08:22,316 log 4818 140406951212800 Internal Server Error: /add-number-in-bag/
+Traceback (most recent call last):
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/meetu/p_p/riwaz/riwaz/riwaz/pages/views.py", line 690, in addNumberInCart
+    dish_id = request.POST.get('dish_id',None).strip()
+AttributeError: 'NoneType' object has no attribute 'strip'
+ERROR 2021-03-30 08:08:22,317 basehttp 4818 140406951212800 "POST /add-number-in-bag/ HTTP/1.1" 500 72711
+ERROR 2021-03-30 08:27:56,833 log 10188 140264165529344 Internal Server Error: /update-dish-in-bag/
+Traceback (most recent call last):
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/meetu/p_p/riwaz/riwaz/riwaz/pages/views.py", line 768, in updateDishInCart
+    dish_id = request.POST.get('data-val',None).strip()
+AttributeError: 'NoneType' object has no attribute 'strip'
+ERROR 2021-03-30 08:27:56,834 basehttp 10188 140264165529344 "POST /update-dish-in-bag/ HTTP/1.1" 500 72938
+ERROR 2021-03-30 08:57:55,650 log 11602 140584677201664 Internal Server Error: /update-dish-in-bag/
+Traceback (most recent call last):
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/meetu/p_p/riwaz/riwaz/riwaz/pages/views.py", line 806, in updateDishInCart
+    cart_session.append(dish_Data)
+NameError: name 'dish_Data' is not defined
+ERROR 2021-03-30 08:57:55,651 basehttp 11602 140584677201664 "POST /update-dish-in-bag/ HTTP/1.1" 500 75419
+ERROR 2021-03-30 08:59:10,469 log 11667 140082423588608 Internal Server Error: /menu/cart/
+Traceback (most recent call last):
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/meetu/p_p/riwaz/riwaz/riwaz/pages/views.py", line 296, in cartPage
+    total_prices = sum(int(cart['sale_price']) for cart in cartVal)
+  File "/home/meetu/p_p/riwaz/riwaz/riwaz/pages/views.py", line 296, in <genexpr>
+    total_prices = sum(int(cart['sale_price']) for cart in cartVal)
+TypeError: list indices must be integers or slices, not str
+ERROR 2021-03-30 08:59:10,470 basehttp 11667 140082423588608 "GET /menu/cart/ HTTP/1.1" 500 77859
+ERROR 2021-03-30 08:59:16,050 log 11667 140082423588608 Internal Server Error: /menu/cart/
+Traceback (most recent call last):
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/meetu/p_p/riwaz/riwaz/riwaz/pages/views.py", line 296, in cartPage
+    total_prices = sum(int(cart['sale_price']) for cart in cartVal)
+  File "/home/meetu/p_p/riwaz/riwaz/riwaz/pages/views.py", line 296, in <genexpr>
+    total_prices = sum(int(cart['sale_price']) for cart in cartVal)
+TypeError: list indices must be integers or slices, not str
+ERROR 2021-03-30 08:59:16,051 basehttp 11667 140082423588608 "GET /menu/cart/ HTTP/1.1" 500 77716
+ERROR 2021-03-30 09:23:37,230 basehttp 13009 139660038076160 "POST /update-dish-in-bag/ HTTP/1.1" 500 59
+ERROR 2021-03-30 09:24:06,467 basehttp 13051 140236876367616 "POST /update-dish-in-bag/ HTTP/1.1" 500 59
+ERROR 2021-03-30 09:26:22,923 basehttp 13140 140425861555968 "POST /update-dish-in-bag/ HTTP/1.1" 500 59
+ERROR 2021-03-30 09:29:39,068 log 13572 140381392418560 Internal Server Error: /update-dish-in-bag/
+Traceback (most recent call last):
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/meetu/p_p/riwaz/riwaz/riwaz/pages/views.py", line 807, in updateDishInCart
+    res = [i for i in cart_session if not (str(i['id']) == str(getCartData['dish_id']))]
+  File "/home/meetu/p_p/riwaz/riwaz/riwaz/pages/views.py", line 807, in <listcomp>
+    res = [i for i in cart_session if not (str(i['id']) == str(getCartData['dish_id']))]
+KeyError: 'id'
+ERROR 2021-03-30 09:29:39,069 basehttp 13572 140381392418560 "POST /update-dish-in-bag/ HTTP/1.1" 500 79224
+ERROR 2021-03-30 09:30:24,607 basehttp 13655 140424689669888 "POST /update-dish-in-bag/ HTTP/1.1" 500 59
+ERROR 2021-03-30 09:42:04,389 log 14333 140233246611200 Internal Server Error: /checkout/
+Traceback (most recent call last):
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/meetu/p_p/riwaz/riwaz/riwaz/pages/views.py", line 374, in checkoutPage
+    return render(request, 'pages/checkout.html', {"cartVal": cartVal})
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/loaders/base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/loader_tags.py", line 270, in do_extends
+    nodelist = parser.parse()
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/loader_tags.py", line 213, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 483, in parse
+    self.unclosed_block_tag(parse_until)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 544, in unclosed_block_tag
+    raise self.error(token, msg)
+django.template.exceptions.TemplateSyntaxError: Unclosed tag on line 3: 'block'. Looking for one of: endblock.
+ERROR 2021-03-30 09:42:04,391 basehttp 14333 140233246611200 "GET /checkout/ HTTP/1.1" 500 166335
+ERROR 2021-03-30 09:51:33,161 log 14964 140117514721024 Internal Server Error: /checkout/
+Traceback (most recent call last):
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 470, in parse
+    compile_func = self.tags[command]
+KeyError: 'endblock'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/meetu/p_p/riwaz/riwaz/riwaz/pages/views.py", line 398, in checkoutPage
+    return render(request, 'pages/checkout.html', {"cartVal": cartVal, 'total_price':total_price})
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/loaders/base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/loader_tags.py", line 270, in do_extends
+    nodelist = parser.parse()
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/loader_tags.py", line 213, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/defaulttags.py", line 814, in do_for
+    nodelist_loop = parser.parse(('empty', 'endfor',))
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 472, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 528, in invalid_block_tag
+    get_text_list(["'%s'" % p for p in parse_until], 'or'),
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 215: 'endblock', expected 'empty' or 'endfor'. Did you forget to register or load this tag?
+ERROR 2021-03-30 09:51:33,163 basehttp 14964 140117514721024 "GET /checkout/ HTTP/1.1" 500 193011
+ERROR 2021-03-30 10:35:41,447 log 16797 140345900717824 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/meetu/p_p/riwaz/riwaz/riwaz/users/views.py", line 44, in home
+    from django.contrib.sites.models import Site
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/contrib/sites/models.py", line 78, in <module>
+    class Site(models.Model):
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/db/models/base.py", line 116, in __new__
+    "INSTALLED_APPS." % (module, name)
+RuntimeError: Model class django.contrib.sites.models.Site doesn't declare an explicit app_label and isn't in an application in INSTALLED_APPS.
+ERROR 2021-03-30 10:35:41,448 basehttp 16797 140345900717824 "GET / HTTP/1.1" 500 95164
+ERROR 2021-03-30 10:37:44,960 log 16832 140491104757504 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/meetu/p_p/riwaz/riwaz/riwaz/users/views.py", line 44, in home
+    return render(request, 'home/index.html', {'menus':menus,'base':BASE_DIR})
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/loaders/base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/loader_tags.py", line 270, in do_extends
+    nodelist = parser.parse()
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/loader_tags.py", line 213, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 449, in parse
+    raise self.error(token, e)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 447, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 563, in compile_filter
+    return FilterExpression(token, self)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 663, in __init__
+    "from '%s'" % (token[upto:], token))
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '[0].image' from 'menus[0].image'
+ERROR 2021-03-30 10:37:44,963 basehttp 16832 140491104757504 "GET / HTTP/1.1" 500 177127
+ERROR 2021-03-30 16:04:14,358 log 4527 140289670903552 Internal Server Error: /menu/
+Traceback (most recent call last):
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/meetu/p_p/riwaz/riwaz_backend/riwaz/pages/views.py", line 949, in menuPage
+    context = {'category' :category, 'menus':menu,'cart_count':len(cartVal)}
+UnboundLocalError: local variable 'cartVal' referenced before assignment
+ERROR 2021-03-30 16:04:14,372 basehttp 4527 140289670903552 "GET /menu/ HTTP/1.1" 500 72930
+ERROR 2021-03-30 16:04:58,865 log 4737 139836568131328 Internal Server Error: /menu/
+Traceback (most recent call last):
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/meetu/p_p/riwaz/riwaz_backend/riwaz/pages/views.py", line 949, in menuPage
+    context = {'category' :category, 'menus':menu,'cart_count':len(cartVal)}
+UnboundLocalError: local variable 'cartVal' referenced before assignment
+ERROR 2021-03-30 16:04:58,866 basehttp 4737 139836568131328 "GET /menu/ HTTP/1.1" 500 73067
+ERROR 2021-03-30 16:05:10,451 log 4737 139836568131328 Internal Server Error: /menu/
+Traceback (most recent call last):
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/meetu/p_p/riwaz/riwaz_backend/riwaz/pages/views.py", line 949, in menuPage
+    context = {'category' :category, 'menus':menu,'cart_count':len(cartVal)}
+UnboundLocalError: local variable 'cartVal' referenced before assignment
+ERROR 2021-03-30 16:05:10,452 basehttp 4737 139836568131328 "GET /menu/ HTTP/1.1" 500 72930
+ERROR 2021-03-30 16:06:37,114 log 4737 139836568131328 Internal Server Error: /reservations/
+Traceback (most recent call last):
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/meetu/p_p/riwaz/riwaz_backend/riwaz/pages/views.py", line 978, in reservationsPage
+    return render(request, 'pages/reservations.html', {'cart_count':len(cartVal)})
+UnboundLocalError: local variable 'cartVal' referenced before assignment
+ERROR 2021-03-30 16:06:37,115 basehttp 4737 139836568131328 "GET /reservations/ HTTP/1.1" 500 71300
+ERROR 2021-03-30 16:07:50,228 log 4737 139836568131328 Internal Server Error: /menu/
+Traceback (most recent call last):
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/meetu/p_p/riwaz/riwaz_backend/riwaz/pages/views.py", line 949, in menuPage
+    context = {'category' :category, 'menus':menu,'cart_count':len(cartVal)}
+UnboundLocalError: local variable 'cartVal' referenced before assignment
+ERROR 2021-03-30 16:07:50,229 basehttp 4737 139836568131328 "GET /menu/ HTTP/1.1" 500 72915
+ERROR 2021-03-30 16:10:35,817 log 4890 140264773515008 Internal Server Error: /cart/
+Traceback (most recent call last):
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/meetu/p_p/riwaz/riwaz_backend/riwaz/pages/views.py", line 300, in cartPage
+    if cartLen:
+UnboundLocalError: local variable 'cartLen' referenced before assignment
+ERROR 2021-03-30 16:10:35,818 basehttp 4890 140264773515008 "GET /cart/ HTTP/1.1" 500 72494
+ERROR 2021-03-30 16:12:22,024 log 5087 139999022413568 Internal Server Error: /cart/
+Traceback (most recent call last):
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/meetu/p_p/riwaz/riwaz_backend/riwaz/pages/views.py", line 300, in cartPage
+    if cartLen:
+UnboundLocalError: local variable 'cartLen' referenced before assignment
+ERROR 2021-03-30 16:12:22,026 basehttp 5087 139999022413568 "GET /cart/ HTTP/1.1" 500 72631
+ERROR 2021-03-30 16:14:48,579 log 5168 140416775091968 Internal Server Error: /cart/
+Traceback (most recent call last):
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/meetu/p_p/riwaz/riwaz_backend/riwaz/pages/views.py", line 303, in cartPage
+    if cartLen:
+UnboundLocalError: local variable 'cartLen' referenced before assignment
+ERROR 2021-03-30 16:14:48,580 basehttp 5168 140416775091968 "GET /cart/ HTTP/1.1" 500 73701
+ERROR 2021-03-30 18:13:27,889 log 11883 139690674460416 Internal Server Error: /update-dish-in-bag/
+Traceback (most recent call last):
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/meetu/p_p/riwaz/riwaz_backend/riwaz/pages/views.py", line 654, in updateDishInCart
+    if dishFrom == 'updateCart':
+NameError: name 'dishFrom' is not defined
+ERROR 2021-03-30 18:13:27,890 basehttp 11883 139690674460416 "POST /update-dish-in-bag/ HTTP/1.1" 500 73151
+ERROR 2021-03-31 02:40:37,856 log 15289 140473812309760 Internal Server Error: /admin/category/riwazcategory/add/
+Traceback (most recent call last):
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/contrib/admin/options.py", line 614, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/contrib/admin/sites.py", line 233, in inner
+    return view(request, *args, **kwargs)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/contrib/admin/options.py", line 1653, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/contrib/admin/options.py", line 1534, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/contrib/admin/options.py", line 1580, in _changeform_view
+    self.save_model(request, new_object, form, not add)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/contrib/admin/options.py", line 1093, in save_model
+    obj.save()
+  File "/home/meetu/p_p/riwaz/riwaz_backend/riwaz/category/models.py", line 39, in save
+    value = self.title
+AttributeError: 'RiwazCategory' object has no attribute 'title'
+ERROR 2021-03-31 02:40:37,857 basehttp 15289 140473812309760 "POST /admin/category/riwazcategory/add/ HTTP/1.1" 500 124198
+ERROR 2021-03-31 02:41:11,184 log 15341 139961240123136 Internal Server Error: /admin/category/riwazcategory/add/
+Traceback (most recent call last):
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/contrib/admin/options.py", line 614, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/contrib/admin/sites.py", line 233, in inner
+    return view(request, *args, **kwargs)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/contrib/admin/options.py", line 1653, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/contrib/admin/options.py", line 1534, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/contrib/admin/options.py", line 1580, in _changeform_view
+    self.save_model(request, new_object, form, not add)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/contrib/admin/options.py", line 1093, in save_model
+    obj.save()
+  File "/home/meetu/p_p/riwaz/riwaz_backend/riwaz/category/models.py", line 40, in save
+    self.slug = slugify(value, allow_unicode=True)
+NameError: name 'slugify' is not defined
+ERROR 2021-03-31 02:41:11,187 basehttp 15341 139961240123136 "POST /admin/category/riwazcategory/add/ HTTP/1.1" 500 124129
+ERROR 2021-03-31 02:49:29,230 log 16009 140450624349952 Internal Server Error: /menu/
+Traceback (most recent call last):
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: menuPage() missing 1 required positional argument: 'slug'
+ERROR 2021-03-31 02:49:29,231 basehttp 16009 140450624349952 "GET /menu/ HTTP/1.1" 500 68864
+ERROR 2021-03-31 03:00:55,941 log 16886 140515387225856 Internal Server Error: /some/1/
+Traceback (most recent call last):
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: slug_test() missing 1 required positional argument: 'foo'
+ERROR 2021-03-31 03:00:55,942 basehttp 16886 140515387225856 "GET /some/1/ HTTP/1.1" 500 68728
+ERROR 2021-03-31 03:01:20,515 log 16886 140515387225856 Internal Server Error: /some/
+Traceback (most recent call last):
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: slug_test() missing 1 required positional argument: 'foo'
+ERROR 2021-03-31 03:01:20,516 basehttp 16886 140515387225856 "GET /some/ HTTP/1.1" 500 68573
+ERROR 2021-03-31 03:01:33,915 log 16937 140402210297600 Internal Server Error: /some/
+Traceback (most recent call last):
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/meetu/p_p/riwaz/riwaz_backend/riwaz/pages/views.py", line 873, in slug_test
+    foo ='p'
+NameError: name 'p' is not defined
+ERROR 2021-03-31 03:01:33,916 basehttp 16937 140402210297600 "GET /some/ HTTP/1.1" 500 71516
+ERROR 2021-03-31 03:01:34,850 log 16937 140402210297600 Internal Server Error: /some/
+Traceback (most recent call last):
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/meetu/p_p/riwaz/riwaz_backend/riwaz/pages/views.py", line 873, in slug_test
+    foo ='p'
+NameError: name 'p' is not defined
+ERROR 2021-03-31 03:01:34,851 basehttp 16937 140402210297600 "GET /some/ HTTP/1.1" 500 71516
+ERROR 2021-03-31 03:01:58,156 log 17000 140265202837248 Internal Server Error: /some/qq
+Traceback (most recent call last):
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: slug_test() missing 1 required positional argument: 'foo'
+ERROR 2021-03-31 03:01:58,157 basehttp 17000 140265202837248 "GET /some/qq HTTP/1.1" 500 68603
+ERROR 2021-03-31 03:01:58,790 log 17000 140265202837248 Internal Server Error: /some/qq
+Traceback (most recent call last):
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: slug_test() missing 1 required positional argument: 'foo'
+ERROR 2021-03-31 03:01:58,791 basehttp 17000 140265202837248 "GET /some/qq HTTP/1.1" 500 68734
+ERROR 2021-03-31 10:43:04,376 log 23690 140141693687552 Internal Server Error: /cart/12354/
+Traceback (most recent call last):
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/meetu/p_p/riwaz/riwaz_backend/riwaz/pages/views.py", line 330, in update_cart
+    getNumber = Numbers.objects.filter(id = number).first()
+NameError: name 'Numbers' is not defined
+ERROR 2021-03-31 10:43:04,379 basehttp 23690 140141693687552 "GET /cart/12354/ HTTP/1.1" 500 73566
+ERROR 2021-03-31 10:43:09,594 log 23690 140141693687552 Internal Server Error: /cart/12354/
+Traceback (most recent call last):
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/meetu/p_p/riwaz/riwaz_backend/riwaz/pages/views.py", line 330, in update_cart
+    getNumber = Numbers.objects.filter(id = number).first()
+NameError: name 'Numbers' is not defined
+ERROR 2021-03-31 10:43:09,595 basehttp 23690 140141693687552 "GET /cart/12354/ HTTP/1.1" 500 73703
+ERROR 2021-03-31 10:43:29,270 log 23690 140141693687552 Internal Server Error: /cart/fsdfsd/
+Traceback (most recent call last):
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/meetu/p_p/riwaz/riwaz_backend/riwaz/pages/views.py", line 330, in update_cart
+    getNumber = Numbers.objects.filter(id = number).first()
+NameError: name 'Numbers' is not defined
+ERROR 2021-03-31 10:43:29,271 basehttp 23690 140141693687552 "GET /cart/fsdfsd/ HTTP/1.1" 500 73578
+ERROR 2021-03-31 10:46:18,060 log 23846 140660560721664 Internal Server Error: /menu/
+Traceback (most recent call last):
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: menuPage() missing 1 required positional argument: 'slug'
+ERROR 2021-03-31 10:46:18,061 basehttp 23846 140660560721664 "GET /menu/ HTTP/1.1" 500 68571
+ERROR 2021-03-31 11:28:54,974 log 25219 140372577552128 Internal Server Error: /menu/all/
+Traceback (most recent call last):
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 470, in parse
+    compile_func = self.tags[command]
+KeyError: 'endfor'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/meetu/p_p/riwaz/riwaz_backend/riwaz/pages/views.py", line 798, in menuPage
+    return render(request, 'pages/menu-page.html', context)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/loaders/base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/loader_tags.py", line 270, in do_extends
+    nodelist = parser.parse()
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/loader_tags.py", line 213, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/defaulttags.py", line 814, in do_for
+    nodelist_loop = parser.parse(('empty', 'endfor',))
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/defaulttags.py", line 979, in do_if
+    nodelist = parser.parse(('endif',))
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 472, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/template/base.py", line 528, in invalid_block_tag
+    get_text_list(["'%s'" % p for p in parse_until], 'or'),
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 61: 'endfor', expected 'endif'. Did you forget to register or load this tag?
+ERROR 2021-03-31 11:28:54,976 basehttp 25219 140372577552128 "GET /menu/all/ HTTP/1.1" 500 213971
+ERROR 2021-03-31 12:19:30,582 log 27352 139621216352000 Internal Server Error: /add-number-in-bag/
+Traceback (most recent call last):
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/meetu/p_p/riwaz/riwaz_backend/riwaz/pages/views.py", line 577, in addNumberInCart
+    dish_id = request.POST.get('dish_id',None).strip()
+AttributeError: 'NoneType' object has no attribute 'strip'
+ERROR 2021-03-31 12:19:30,585 basehttp 27352 139621216352000 "POST /add-number-in-bag/ HTTP/1.1" 500 73054
+ERROR 2021-03-31 12:20:04,898 log 27352 139621233137408 Internal Server Error: /add-number-in-bag/
+Traceback (most recent call last):
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/meetu/p_p/riwaz/riwaz_backend/riwaz/pages/views.py", line 579, in addNumberInCart
+    quantity = request.POST.get('quantity',None).strip()
+AttributeError: 'NoneType' object has no attribute 'strip'
+ERROR 2021-03-31 12:20:04,899 basehttp 27352 139621233137408 "POST /add-number-in-bag/ HTTP/1.1" 500 73488
+ERROR 2021-03-31 12:21:01,229 log 27352 139621224744704 Internal Server Error: /add-number-in-bag/
+Traceback (most recent call last):
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/meetu/p_p/riwaz/riwaz_backend/riwaz/pages/views.py", line 579, in addNumberInCart
+    quantity = request.POST.get('quantity',None).strip()
+AttributeError: 'NoneType' object has no attribute 'strip'
+ERROR 2021-03-31 12:21:01,231 basehttp 27352 139621224744704 "POST /add-number-in-bag/ HTTP/1.1" 500 73488
+ERROR 2021-03-31 12:30:27,294 log 27997 140326810302208 Internal Server Error: /cart/
+Traceback (most recent call last):
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/meetu/p_p/riwaz/riwaz_backend/riwaz/pages/views.py", line 302, in cartPage
+    total = cart['quantity']*float(cart['sale_price'])
+TypeError: can't multiply sequence by non-int of type 'float'
+ERROR 2021-03-31 12:30:27,297 basehttp 27997 140326810302208 "GET /cart/ HTTP/1.1" 500 74516
+ERROR 2021-04-01 17:05:32,132 log 21149 140010862057216 Internal Server Error: /admin/menu/riwazmenu/1/change/
+Traceback (most recent call last):
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/db/backends/sqlite3/base.py", line 413, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.OperationalError: no such column: menu.goal_id
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/contrib/admin/options.py", line 614, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/contrib/admin/sites.py", line 233, in inner
+    return view(request, *args, **kwargs)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/contrib/admin/options.py", line 1656, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/contrib/admin/options.py", line 1534, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/contrib/admin/options.py", line 1555, in _changeform_view
+    obj = self.get_object(request, unquote(object_id), to_field)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/contrib/admin/options.py", line 762, in get_object
+    return queryset.get(**{field.name: object_id})
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/db/models/query.py", line 425, in get
+    num = len(clone)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/db/models/query.py", line 269, in __len__
+    self._fetch_all()
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/db/models/query.py", line 1308, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/db/models/query.py", line 53, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 1156, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/db/backends/utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/db/backends/utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/db/backends/utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/db/backends/sqlite3/base.py", line 413, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.OperationalError: no such column: menu.goal_id
+ERROR 2021-04-01 17:05:32,160 basehttp 21149 140010862057216 "GET /admin/menu/riwazmenu/1/change/ HTTP/1.1" 500 183114
+ERROR 2021-04-01 17:05:38,525 log 21149 140010862057216 Internal Server Error: /admin/menu/riwazmenu/
+Traceback (most recent call last):
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/db/backends/sqlite3/base.py", line 413, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.OperationalError: no such column: menu.goal_id
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/contrib/admin/options.py", line 614, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/contrib/admin/sites.py", line 233, in inner
+    return view(request, *args, **kwargs)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/contrib/admin/options.py", line 1811, in changelist_view
+    'selection_note': _('0 of %(cnt)s selected') % {'cnt': len(cl.result_list)},
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/db/models/query.py", line 269, in __len__
+    self._fetch_all()
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/db/models/query.py", line 1308, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/db/models/query.py", line 53, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 1156, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/db/backends/utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/db/backends/utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/db/backends/utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/db/backends/sqlite3/base.py", line 413, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.OperationalError: no such column: menu.goal_id
+ERROR 2021-04-01 17:05:38,526 basehttp 21149 140010862057216 "GET /admin/menu/riwazmenu/ HTTP/1.1" 500 164953
+ERROR 2021-04-01 17:05:50,889 log 21149 140010853664512 Internal Server Error: /admin/menu/riwazmenu/
+Traceback (most recent call last):
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/db/backends/sqlite3/base.py", line 413, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.OperationalError: no such column: menu.goal_id
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/contrib/admin/options.py", line 614, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/contrib/admin/sites.py", line 233, in inner
+    return view(request, *args, **kwargs)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/contrib/admin/options.py", line 1811, in changelist_view
+    'selection_note': _('0 of %(cnt)s selected') % {'cnt': len(cl.result_list)},
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/db/models/query.py", line 269, in __len__
+    self._fetch_all()
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/db/models/query.py", line 1308, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/db/models/query.py", line 53, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 1156, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/db/backends/utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/db/backends/utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/db/backends/utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/db/backends/sqlite3/base.py", line 413, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.OperationalError: no such column: menu.goal_id
+ERROR 2021-04-01 17:05:50,890 basehttp 21149 140010853664512 "GET /admin/menu/riwazmenu/ HTTP/1.1" 500 165080
+ERROR 2021-04-01 17:13:28,076 log 21962 139909022799616 Internal Server Error: /admin/subscribers/subscribers/add/
+Traceback (most recent call last):
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/contrib/admin/options.py", line 614, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/contrib/admin/sites.py", line 233, in inner
+    return view(request, *args, **kwargs)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/contrib/admin/options.py", line 1653, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/contrib/admin/options.py", line 1534, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/contrib/admin/options.py", line 1584, in _changeform_view
+    self.log_addition(request, new_object, change_message)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/contrib/admin/options.py", line 814, in log_addition
+    object_repr=str(object),
+  File "/home/meetu/p_p/adila/a_backend/riwaz/subscribers/models.py", line 17, in __str__
+    return self.email
+AttributeError: 'Subscribers' object has no attribute 'email'
+ERROR 2021-04-01 17:13:28,079 basehttp 21962 139909022799616 "POST /admin/subscribers/subscribers/add/ HTTP/1.1" 500 123776
+ERROR 2021-04-01 17:13:56,787 log 22014 139645554185984 Internal Server Error: /admin/subscribers/subscribers/add/
+Traceback (most recent call last):
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/db/backends/sqlite3/base.py", line 413, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.IntegrityError: NOT NULL constraint failed: subscribers.category_id
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/contrib/admin/options.py", line 614, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/contrib/admin/sites.py", line 233, in inner
+    return view(request, *args, **kwargs)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/contrib/admin/options.py", line 1653, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/contrib/admin/options.py", line 1534, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/contrib/admin/options.py", line 1580, in _changeform_view
+    self.save_model(request, new_object, form, not add)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/contrib/admin/options.py", line 1093, in save_model
+    obj.save()
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/db/models/base.py", line 754, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/db/models/base.py", line 792, in save_base
+    force_update, using, update_fields,
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/db/models/base.py", line 895, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/db/models/base.py", line 935, in _do_insert
+    using=using, raw=raw,
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/db/models/query.py", line 1254, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 1397, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/db/backends/utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/db/backends/utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/db/backends/utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/meetu/p_p/riwaz/riwaz/myenv/lib/python3.6/site-packages/django/db/backends/sqlite3/base.py", line 413, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.IntegrityError: NOT NULL constraint failed: subscribers.category_id
+ERROR 2021-04-01 17:13:56,790 basehttp 22014 139645554185984 "POST /admin/subscribers/subscribers/add/ HTTP/1.1" 500 200541

@@ -1,0 +1,70 @@
+{% load static %}
+{% load tagconstants %}
+{% load sekizai_tags %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <!-- SEO META Tags -->
+    <meta name="keywords" content="Best Indian food, Rajmah Rice,Kadi Rice, Chole, Paneer">
+    <meta name="description" content="Riwaz Limited">
+    <meta name="author" content="Riwaz Limited">
+
+    <title>Riwaz- Best Indian Food</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{% static 'assets/css/style.css' %}">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'assets/css/main.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/css/cart.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/css/checkout.css' %}">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="{% static 'assets/js/main.js' %}"></script>
+    <script src="{% static 'assets/js/custom.js' %}"></script>
+</head>
+
+<body>
+    {% block pagecontent %}
+    {% endblock %}
+    
+    <script type="text/javascript">
+        $.ajaxSetup({
+        dataType: 'json',
+        data: {
+          csrfmiddlewaretoken: '{{ csrf_token }}'
+        },
+        error: function(x, status, error) {
+            if (x.status == 403) {
+                alert("Your session has been expired");
+                window.location.reload();
+            } else if (x.status == 401) {
+                alert("Your do not have permissions to access this area");
+            } else if (x.status == 404) {
+                //alert("Page not found");
+            } else if (x.status == 500) {
+                alert("An internal server error occurred");
+            } else if (status === 'parsererror') {
+                alert('Requested JSON parse failed.');
+            } else if (status === 'timeout') {
+                alert('Time out error.');
+            } else if(x.status == 301){
+                alert("Your session has been expired or you have to login to access this feature");
+                window.location.href = "/login/";
+                window.location.reload();
+            } else if(x.status == 302){
+                alert("Your session has been expired or you have to login to access this feature");
+                window.location.href = "/login/";
+                window.location.reload();
+            }
+        }
+    });
+    </script>
+  </body>
+</html>

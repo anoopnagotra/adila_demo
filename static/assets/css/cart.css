@@ -1,0 +1,147 @@
+.min-plus {
+    display: flex;
+    
+}
+.min-plus input {
+    width: 30px;
+    height: 22px;
+    margin: 0 5px;
+    border: none;
+    text-align: center;
+}
+.cart-img{
+    height: 150px;
+    width: 250px;
+    overflow: hidden;
+    border-radius: 10px 10px;
+    display: inline-block;
+}
+.min-plus p {
+    font-size: 18px;
+    margin: 0;
+    line-height: 21px;
+}
+.cart-img img{
+    height: 150px;
+    width: 250px;
+    object-fit: cover;
+    display: inline-block;
+}
+.order-remove{
+    display: inline-block;
+}
+.order-remove a{
+    color: #BFBFBF;
+    font-size: 13px;
+}
+.rate{
+    display: inline-block;
+}
+.cart-values{
+    display: inline-block;
+    position: absolute;
+    left: 255px;
+    margin-top: 60px;
+    
+}
+.cart-page{
+    padding: 10px 0px;
+}
+.cart-values h6,.cart-values div,.cart-values span{
+    font-size: 12px;
+    padding: 0px 12px;
+    }
+.details{
+    height: auto;
+    background-color: #F5F5F5;
+    border-radius: 20px;
+}
+.table-line{
+   border-top: solid rgba(0, 0, 0, 0.1) thin;
+   border-bottom: solid rgba(0, 0, 0, 0.1) thin;
+}
+.sum{
+    text-align: center;
+    padding: 15px 0px;
+}
+.total-price{
+ display: flex;
+ justify-content:flex-end;
+}
+table tr td{
+    font-weight: bold;
+    padding: 10px 65px;
+    font-size: 12px;
+}
+table tr td a{
+    color: #BFBFBF;
+    text-decoration: none;
+    }
+ table tr td a:link {
+  text-decoration: none;
+}
+
+table tr td a:visited {
+  text-decoration: none;
+}
+
+button.btn.btn-large.btn-checkout {
+    border: 2px solid #303E47;
+    border-radius: 30px;
+    height: 30px;
+    padding: 0 30px;
+    font-size: 11px;
+    background: #303E47;
+    color: #fff;
+    text-align: center;
+}
+.center{
+    text-align: center;
+    padding: 10px 10px;
+}
+.dish{
+    margin: 10px 50px;
+}
+@media screen and (max-width: 480px) {
+    .cart-img img{
+        width: 150px;
+        height: 100px;
+        border-radius: 10px;
+    }
+    table tr td {
+    padding: 10px 36px;
+    }
+    .cart-values{
+    left: 175px;
+    margin-top: 10px;
+    }  
+    .cart-values h6, .cart-values div, .cart-values span {
+    font-size: 15px;
+    padding: 0px 12px;
+}
+}
+
+
+@media screen and (max-width: 768px) and (min-width: 500px) {
+   table tr td {
+    padding: 10px 20px;
+    }
+    .cart-img img{
+        width: 220px;
+        height: 130px;
+        border-radius: 10px;
+    }
+    .cart-values {
+    margin-top: 30px;
+}
+}
+
+@media screen and (max-width: 1100px) and (min-width: 900px){
+    table tr td {
+    padding: 10px 45px;
+    }
+    .cart-values {
+    margin-top: 50px;
+    left: 265px;
+}
+}

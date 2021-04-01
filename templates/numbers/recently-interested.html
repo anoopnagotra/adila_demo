@@ -1,0 +1,82 @@
+{% load static %}
+{% load tagconstants %}
+{% load category_tags %}
+{% load device_type %}
+
+{% if INTERESTED_NUMBERS %}
+<h2 class="heading-lable-gredient">Recently Viewed</h2>
+<div class="row row-sm">
+{% for number in interested_numbers|slice:":9" %}
+<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12" id="number-card-wishlist_{{ number.numbers.id }}" style="float: left">
+    <div class="box-part text-center home-pg-number-col">
+        <div class="table-resposnive /" >
+            <table class="table" >
+                <tr class="number-card-price-row">
+
+                    <td>
+                        {% if number.user.premium_seller_tag %}
+                        <div data-toggle="tooltip" title="Good Service Premium Seller" style="float: left; color: #08c; padding: 2px 10px 6px; margin-left:-14px; margin-top: -1px; border-radius: 3px;"><i class="fa fa-diamond" aria-hidden="true"></i></div>
+                        {% elif number.user.seller_rating  <= '2' %}
+                            <div data-toggle="tooltip" data-html="true" data-placement="top" title="A little delay in order processing and support by seller. But if you pay for this, Your payment will be safe with <b>VNS</b> until your number(s) get activate" style="float: left; color: #f87009; padding: 2px 10px 6px; padding-top:10px; margin-left:-14px; margin-top: -1px; border-radius: 3px;"><i class="fa fa-exclamation-triangle" aria-hidden="true" title="Basic Seller"></i></div>
+                        {% else %}
+
+                        {% endif %}
+
+                         <div class="ratings-container">
+                            <div class="product-ratings" style="color:red">
+                                <span class="ratings" style="width: {% widthratio number.user.seller_rating 1 20 %}%; color:red;"></span><!-- End .ratings -->
+                            </div><!-- End .product-ratings -->
+                        </div>
+                        <small class="number-price">{{ number.selling_price }}/-</small>
+                    </td>
+                </tr>
+                <tr class="number-casrd-row-no number-quick-view" data-id="{{ number.id}}" style="cursor: pointer">
+                    <td>
+                        <h3 class="number-display-cell noselect">{{ number.display_number }}</h3>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="number-card-sum-row">
+                        <!-- <b>{{number.premium}} </b> -->
+                        {% if number.user.is_premium %}
+                            Total - <b>{{ number.number_total }}</b> | Sum - <b>{{ number.number_sum }}</b> |
+                        {% endif %}
+
+                        {% if number.rtp %}
+                            <span class="badge badge-danger" data-toggle="tooltip" data-placement="top" title="Ready To Port|Any State|Any Operator|Any Plan;Prepaid or Postpaid|Quick MNP">R2P</span>
+                        {% else %}
+                            <span class="badge badge-warning">N-R2P</span>
+                        {% endif %}
+
+                        {% if number.cod %}
+                            | <span class="badge badge-primary" data-toggle="tooltip" data-html="true" data-placement="top" title="Booking Amount 500/-, Non Refundable">COD</span>
+                        {% endif %}
+                    </td>
+                </tr>
+                <tr class="numbers-card-actions-tr">
+                    <td class="numbers-card-actions-td">
+                        <span class="number-card-views" id="numbercard_{{ number.id }}"><i class="fa fa-eye"></i> {{ number.total_views }}</span>
+
+                            <span {% if number.display_number in wishlist %}
+                                  class="already-wishlist" data-status="0"
+                                  {% else %}
+                                    data-status="1" class="number-card-btn-actions number-card-add-wishlist"
+                                  {% endif %}  id="numbercardheart_{{ number.id }}">  <i class="fa fa-heart"></i>
+                                {{ number.total_likes }}
+                            </span>
+
+
+                        <span class="number-card-btn-actions add-number-cart " id="addnumbercart_{{ number.id }}"><i class="fa fa-shopping-cart"></i></span>
+
+                        <!-- <a href="buy-number/{{ number.id}}" class="number-card-btn-actions directBuy"><i class="fa fa-shopping-bag"></i></a> -->
+                        <a id="addnumbercartdirectpay_{{ number.id }}" href="javascript:;" class="number-card-btn-actions directBuy directBuyNumber">Buy</a>
+                    </td>
+
+                </tr>
+            </table>
+        </div>
+     </div>
+</div><!-- number col start -->
+{% endfor %}
+</div>
+{% endif %}

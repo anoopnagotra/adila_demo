@@ -1,0 +1,55 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load tagconstants %}
+{% block pagecontent %}
+
+    <div class="page-wrapper">
+        {% include 'partials/header.html' %}
+        <main class="main">
+            <nav aria-label="breadcrumb" class="breadcrumb-nav">
+                <div class="container">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="{% url 'home' %}"><i class="icon-home"></i></a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Payment Success</li>
+                    </ol>
+                </div><!-- End .container -->
+            </nav>
+
+            <div class="about-section">
+                <div class="container">
+                    <center>
+                        {% if paytm.STATUS == 'TXN_FAILURE' %}
+                            <div id="circle-failed">
+                                <div id="text">
+                                <i class="fa fa-times"></i>
+                            </div>
+                          </div>
+                          <h2 class="subtsitle">Oops, something went wrong</h2><br />
+                        {% else %}
+                            <div id="circle">
+                                <div id="text">
+                                <i class="fa fa-check"></i>
+                            </div>
+                          </div>
+                          <h2 class="subtsitle">Thank You</h2><br />
+                        {% endif %}    
+                        <p>
+                            {{ paytm }}
+                            You order has been placed successfully and We will contact you soon.
+                        </p><br />
+                        <a href="{% url 'home' %}" class="btn btn-primary">Back To Home</a>
+                    </center>
+                    <p>
+
+                    </p>
+                </div><!-- End .container -->
+            </div><!-- End .about-section -->
+        </main><!-- End .main -->
+        {% include 'partials/footer.html' %}
+    </div><!-- End .page-wrapper -->
+
+    <div class="mobile-menu-overlay"></div><!-- End .mobil-menu-overlay -->
+    {% include 'partials/mobile_menu_container.html' %}
+    {% include 'partials/add_to_cart.html' %}
+
+{% endblock %}

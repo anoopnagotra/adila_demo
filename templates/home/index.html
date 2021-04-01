@@ -1,0 +1,68 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block pagecontent %}
+<body>
+    <!-- Start Main Top -->
+        {% include 'partials/main_top.html' %}
+    <!-- End Main Top -->
+
+    <!-- Start Main Top -->
+        {% include 'partials/header.html' %}    
+    <!-- End Main Top -->
+
+    <!-- Start Top Search -->
+    <div class="top-search">
+        <div class="container">
+            <div class="input-group">
+                <span class="input-group-addon"><i class="fa fa-search"></i></span>
+                <input type="text" class="form-control" placeholder="Search">
+                <span class="input-group-addon close-search"><i class="fa fa-times"></i></span>
+            </div>
+        </div>
+    </div>
+    <!-- End Top Search -->
+
+    <!-- Start Slider -->
+        {% include 'partials/main_slider.html' %}  
+    <!-- End Slider -->
+
+    <!-- Start Categories  -->
+        {% include 'partials/category_sidebar.html' %}  
+    <!-- End Categories -->
+    
+	
+        
+    <!-- Start reservation  -->
+        {% include 'partials/reservation.html' %}  
+    <!-- End reservation  -->
+        
+	
+    <!-- Start Products  -->
+        {% include 'partials/product.html' %}  
+    <!-- End Products  -->
+
+    <!-- Start Blog  -->
+        {% include 'partials/blog.html' %}  
+    <!-- End Blog  -->
+
+
+    <!-- Start Instagram Feed  -->
+        {% include 'partials/insta_feed.html' %}  
+    <!-- End Instagram Feed  -->
+
+
+    <!-- Start Footer  -->
+        {% include 'partials/footer.html' %}  
+    <!-- End Footer  -->
+
+    <!-- Start copyright  -->
+    <div class="footer-copyright">
+        <p class="footer-company">All Rights Reserved. &copy; 2018 <a href="#">ThewayShop</a> Design By :
+            <a href="https://html.design/">html design</a></p>
+    </div>
+    <!-- End copyright  -->
+
+    <a href="#" id="back-to-top" title="Back to top" style="display: none;">&uarr;</a>
+</body>
+</html>
+{% endblock %}

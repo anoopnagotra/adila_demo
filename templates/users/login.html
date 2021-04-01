@@ -1,0 +1,102 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load tagconstants %}
+{% block pagecontent %}
+
+    <div class="page-wrapper">
+        {% include 'partials/header.html' %}
+        <main class="main">
+            <nav aria-label="breadcrumb" class="breadcrumb-nav">
+                <div class="container">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="{% url 'home' %}"><i class="icon-home"></i></a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Login</li>
+                    </ol>
+                </div><!-- End .container -->
+            </nav>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="heading">
+                            <h2 class="title">Login</h2>
+                        </div><!-- End .heading -->
+
+                        <form action="{% url 'login' %}" method="post" id="loginForm">
+                            {% csrf_token%}
+                            <input type="hidden" value="{{ request.GET.next }}" name="next" />
+                            <input autocomplete="off" type="email" id="loginEmail" name="loginEmail" class="required form-control" placeholder="Email Address">
+                            <input autocomplete="off" type="password" class="required form-control" name="loginPassword" id="loginPassword" placeholder="Password">
+
+                            <div class="form-footer">
+                                <button type="submit" class="btn btn-primary">LOGIN</button>
+                                <a href="javascript:;" data-toggle="modal" data-target="#forgotPasswordModal" class="forget-pass"> Forgot your password?</a>
+                            </div><!-- End .form-footer -->
+                            <span class="forgot-flash" style="">
+                                  Mail has been sent successfully
+                                </span>
+                        </form>
+                    </div><!-- End .col-md-6 -->
+
+                    <div class="col-md-6">
+                        <div class="heading">
+                            <h2 class="title">Create An Account</h2>
+                        </div><!-- End .heading -->
+
+                        <form action="{% url 'register' %}" method="post" id="signupForm">
+                          {% csrf_token%}
+                            <input autocomplete="off" type="text" class="form-control required" placeholder="Full Name" name="signupName" id="signupName">
+                            <input autocomplete="off" type="email" name="signupEmail" id="signupEmail" class="form-control required" placeholder="Email">
+                            <input autocomplete="off" type="text" class="form-control required" name="signupMobile" id="signupMobile" placeholder="Mobile No.">
+                            <input autocomplete="off" type="password" name="signupPassword" id="signupPassword" class="form-control required" placeholder="Password">
+                            <input autocomplete="off" type="password" class="form-control required" name="signupCPassword" id="signupCPassword" placeholder="Confirm Password">
+
+                            <div class="form-footer">
+                                <button type="submit" class="btn btn-primary">Create Account</button>
+                            </div><!-- End .form-footer -->
+                        </form>
+                    </div><!-- End .col-md-6 -->
+                </div><!-- End .row -->
+            </div><!-- End .container -->
+
+            <div class="mb-5"></div><!-- margin -->
+        </main><!-- End .main -->
+        {% include 'partials/footer.html' %}
+    </div><!-- End .page-wrapper -->
+
+    <div class="mobile-menu-overlay"></div><!-- End .mobil-menu-overlay -->
+    {% include 'partials/mobile_menu_container.html' %}
+    {% include 'partials/modals.html' %}
+    {% include 'partials/add_to_cart.html' %}
+
+<!-- Forgot Password Modal Start -->
+<div id="forgotPasswordModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title">Forgot Password</h2>
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-md-12">
+              <p>Please enter your valid email address</p>
+              <form action="#" id="forgotPasswordForm">
+                  {% csrf_token%}
+                  <input type="email" name="frgtEmail" id="frgtEmail" class="form-control" placeholder="Email Address" required>
+                  <div class="form-footer">
+                      <button type="submit" class="btn btn-primary btnForgotPassword">Submit</button>
+                      <span style="display:none;" class="sm-loader"><img src="{% static 'images/loader.gif' %}" alt="Loader"></span>
+                  </div><!-- End .form-footer -->
+              </form>
+          </div><!-- End .col-md-6 -->
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+<!-- Forgot Password Modal End -->
+{% endblock %}
